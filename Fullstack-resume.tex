@@ -15,6 +15,11 @@
 \usepackage{verbatim}
 \usepackage{enumitem}
 \usepackage[pdftex]{hyperref}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=blue,
+  pdfborder={0 0 1},
+}
 \usepackage{fancyhdr}
 
 \pagestyle{fancy}
@@ -85,15 +90,10 @@
   \href{https://github.com/iyanubruce}{Github: ~~github.com/iyanubruce}  &   \href{https://www.linkedin.com/in/iyanuoluwa-taiwo-540823333/}{Linkedin}  \\
 \end{tabular*}
 
-%-----------EDUCATION-----------------
-\section{~~Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Federal University Ndufu-Alike}{Ebonyi, Nigeria}
-      {Bachelor of Science - Computer Science;  GPA: 3.4}{Jan 2021 - Oct 2025}
-      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Operating Systems, Data Structures, Analysis Of Algorithms, Artificial Intelligence, Machine Learning, Networking, Databases}}}
-    \resumeSubHeadingListEnd
-	    
+%-----------PROFESSIONAL SUMMARY-----------------
+\section{Professional Summary}
+Full-Stack Software Engineer with 3+ years of expertise building scalable fintech and blockchain systems. Experienced leading small engineering squads, architecting low-latency microservices, and delivering mission-critical web applications featuring real-time data visualization and complex third-party API integrations.
+
 \vspace{-5pt}
 \section{Skills Summary}
 	\resumeSubHeadingListStart
@@ -107,26 +107,44 @@
 \vspace{-5pt}
 \section{Experience}
   \resumeSubHeadingListStart
-    \resumeSubheading{Google Summer of Code - Submitty}{Remote}
-    {Student Developer (Full-time)}{May 2019 - Sep 2019}
+    \resumeSubheading{Backend Developer, Taja}{Lagos}
+    {Nov 2024 - Present}{}
     \resumeItemListStart
-        \resumeItem{Discussion Forum Upgrades}
-          {Refactor forum for performance to handle large databases.}
-          \resumeItem{REST API for Discussion Forum}
-          {Symphony \& Twig based Forum parts converted to API-first interface.}
-          \resumeItem{Ratchet PHP WebSocket}{Implemented a WebSocket for low-latency real time exchange of posts and thread updates.}
+        \resumeItem{Abuse Detection}
+          {Implemented device fingerprinting and abuse-detection controls to identify impersonation attempts, reducing account takeover incidents by 30\%.}
+        \resumeItem{Code Review Workflows}
+          {Built monitoring and review workflows that supported code review cadences and mentorship sessions, improving engineering team delivery consistency and code quality.}
+        \resumeItem{Query Optimization}
+          {Optimized SQL queries and database indexes to reduce average database request latency by 20\%.}
+        \resumeItem{Admin Dashboard}
+          {Developed an admin dashboard for internal operations workflows, helping increase organizational productivity by 50\% through faster task handling and reporting.}
       \resumeItemListEnd
 \vspace{-5pt}
-    \resumeSubheading
-		{DataCamp Inc.}{Remote}
-		{Instructor (Part-time, Contractual)}{Dec 2018 -  Present}
-		\resumeItemListStart
-        \resumeItem{Project Course - Find Movie Similarity from Plot Summaries}
-          {Created project based course using Unsupervised learning and natural language processing.}
-        \resumeItem{Tutorial - Introduction to Reinforcement Learning}
-          {Created tutorial for Q-learning RL algorithm and  concepts.}
-        \resumeItem{Impact}{Course has been taken by 250+ students so far with 4.65 average rating.}
-		\resumeItemListEnd
+    \resumeSubheading{Software Engineer (contract), Kite}{Lagos}
+    {Oct 2025 - May 2026}{}
+    \resumeItemListStart
+        \resumeItem{Unified API Layer}
+          {Architected a unified API layer around major payment providers, consolidating complex financial rails into a single high-performance interface used by multiple client applications.}
+        \resumeItem{Team Leadership}
+          {Led a team of 2 engineers, defining the technical roadmap, code-review standards, and quarterly planning process while maintaining 99.9\% system uptime.}
+        \resumeItem{Regression Testing}
+          {Introduced automated regression testing across critical payment flows, cutting production bug escapes by over 50\% in the first quarter.}
+        \resumeItem{Cross-Platform Frontend}
+          {Co-developed the cross-platform mobile frontend, implementing state management and real-time synchronization with the unified backend API.}
+        \resumeItem{UI Components}
+          {Translated financial data flows into responsive UI components, improving onboarding and transaction completion experiences for users.}
+      \resumeItemListEnd
+\vspace{-5pt}
+    \resumeSubheading{Software Engineer, LocalRamp}{Lagos}
+    {May 2023 - Nov 2024}{}
+    \resumeItemListStart
+        \resumeItem{Fiat-to-Crypto Gateway}
+          {Led end-to-end development of a fiat-to-crypto gateway processing millions in monthly transaction volume, with PCI-DSS compliance and KYC/AML integration.}
+        \resumeItem{Analytics Dashboard}
+          {Built a real-time analytics dashboard for operations teams and an embeddable widget adopted by 300+ enterprise clients, contributing to an 18\% improvement in retention.}
+        \resumeItem{CI/CD Optimization}
+          {Reduced CI/CD pipeline duration by 70\% by streamlining build and deployment stages, and authored API design standards that cut new engineer onboarding time by 40\%.}
+      \resumeItemListEnd
 
 \resumeSubHeadingListEnd
 
@@ -134,48 +152,53 @@
 \vspace{-5pt}
 \section{Projects}
 \resumeSubHeadingListStart
-\resumeSubItem{Vison - multimedia search engine (NLP, Search Engine, Web Crawlers, Multimedia Processing)}{(Work in progress) Research oriented, open source, search engine for bringing reverse multimedia search to small \& mid scale enterprises. Tech: Python, NodeJS, Intel OpenVino Toolkit, Selenium, TensorFlow (October '18)}
+\resumeSubItem{\href{https://github.com/iyanubruce/rate-limiter}{RateLimitr} (TypeScript, Fastify, Redis, TimescaleDB) -- 2024}
+  {Distributed rate-limiting service with 4 pluggable algorithms and atomic Redis Lua operations — 10,000+ RPS with zero race conditions across 50+ nodes. Multi-tenant architecture for 10,000+ concurrent tenants with hot-swappable strategies and TimescaleDB-powered real-time analytics.}
 \vspace{2pt}
-\resumeSubItem{Reinforcement Learning based Traffic Control System (Reinforcement Learning, Computer Vision)}{AI model to resolve city traffic around 50\%
-faster. Tech: Python, Alibaba Cloud, Raspberry Pi, Arduino, SUMO \& OpenCV. (August '18)}
-\vspace{2pt}
-\resumeSubItem{Panorama from Satellite Imagery using Distributed Computing (Distributed Computing, Image Processing)}{Images clicked using drones, provided by ISRO were stitched together using distributed public compute nodes, effectively bringing down processing time exponentially. Tech: PHP, C++, Java, Python (March '18)}
-\vspace{2pt}
-\resumeSubItem{Drag-n-drop machine learning learning environment (Web Development, Machine Learning)}{Scratch like tool for implementing machine learning pipelines along with built in tutorial for each concept. Tech: Python, JavaScript (September '18)}
-\vspace{2pt}
-\resumeSubItem{Search Engine and Social Network(Web Development, Web Crawler, Search)}{Created from scratch a social network and a search engine based on the idea of integrating Facebook and Google. The launched website was among top 1000 websites in India during 2012-2013. Tech: PHP, MySQL, HTML, CSS, WebSockets, JavaScript, RSS, XML ( May '12)}
+\resumeSubItem{\href{https://github.com/iyanubruce/Synapse.git}{Synapse} (TypeScript, Express, MongoDB, Redis)}
+  {Architected a provider-agnostic Strategy/Adapter pattern unifying 3 payment providers behind a single IProviderAdapter interface — enabling hot-swappable provider integration without client code changes. Built a multi-tenant API handling virtual accounts, cards, KYC/KYB, cross-border payouts, and currency swaps across 6+ external financial services with workspace-scoped isolation. Implemented event-driven background processing via RabbitMQ consumers and Bull queues for async email delivery, virtual account creation, and scheduled exchange rate updates. Designed a layered architecture with JWT/API-key auth, rate limiting, structured logging (Winston), Sentry error tracking, and S3-compatible file storage — processing millions in transaction volume.}
 \resumeSubHeadingListEnd
-\vspace{-5pt}
-\section{Publications}
-\resumeSubHeadingListStart
-\resumeSubItem{Book: Deep Learning on Web (Web Development, Deep Learning)}{Work in Progress book to be published by Packt Publishing in late 2019. Tech: Django, Python, AWS, GCP, Azure (November '18)}
-\vspace{2pt}
-\resumeSubItem{Book: Deep Learning on Mobile Devices (Flutter App Development, Deep Learning)}{Work in Progress book to be published by Packt Publishing in late 2019. Tech: Flutter, Android, Firebase, TensorFlow, Python, Dart (December '18)}
-\resumeSubHeadingListEnd
-\vspace{-5pt}
+% \vspace{-5pt}
+% % \section{Publications}
+% % \resumeSubHeadingListStart
+% % \resumeSubItem{Book: Deep Learning on Web (Web Development, Deep Learning)}{Work in Progress book to be published by Packt Publishing in late 2019. Tech: Django, Python, AWS, GCP, Azure (November '18)}
+% % \vspace{2pt}
+% % \resumeSubItem{Book: Deep Learning on Mobile Devices (Flutter App Development, Deep Learning)}{Work in Progress book to be published by Packt Publishing in late 2019. Tech: Flutter, Android, Firebase, TensorFlow, Python, Dart (December '18)}
+% % \resumeSubHeadingListEnd
+% % \vspace{-5pt}
 %-----------Awards-----------------
-\section{Honors and Awards}
-\begin{description}[font=$\bullet$]
-\item {Awarded title of Intel Software Innovator - May, 2019}
-\vspace{-5pt}
-\item {Second Runner's Up at TCS EngiNx Engineering Project Innovation Content - September, 2018 }
-\vspace{-5pt}
-\item {Runner's Up at Facebook Developers Circle Hackathon - August, 2017}
+% \section{Honors and Awards}
+% \begin{description}[font=$\bullet$]
+% \item {Awarded title of Intel Software Innovator - May, 2019}
+% \vspace{-5pt}
+% \item {Second Runner's Up at TCS EngiNx Engineering Project Innovation Content - September, 2018 }
+% \vspace{-5pt}
+% \item {Runner's Up at Facebook Developers Circle Hackathon - August, 2017}
 
-\end{description}
+% \end{description}
+
+% \vspace{-5pt}
+% \section{Volunteer Experience}
+%   \resumeSubHeadingListStart
+% 	\resumeSubheading
+%     {Community Lead at Developer Student Clubs NSEC}{Kolkata, India}
+%     {Conducted online and offline technical \& soft-skills training impacting over 3000 students.}{Jan 2019 - Present}
+% \vspace{5pt}
+%     % \vspace{10pt}\textbf{\large{Community Experience}}
+%     \resumeSubheading
+%     {Event Organizer at Google Developers Group Kolkata}{Kolkata, India}
+%     {Organized events, conducted workshops and delivered workshops reaching over 7000 developers.}{Jan 2018 - Present}
+
+% \resumeSubHeadingListEnd
 
 \vspace{-5pt}
-\section{Volunteer Experience}
+%-----------EDUCATION-----------------
+\section{~~Education}
   \resumeSubHeadingListStart
-	\resumeSubheading
-    {Community Lead at Developer Student Clubs NSEC}{Kolkata, India}
-    {Conducted online and offline technical \& soft-skills training impacting over 3000 students.}{Jan 2019 - Present}
-\vspace{5pt}
-    % \vspace{10pt}\textbf{\large{Community Experience}}
     \resumeSubheading
-    {Event Organizer at Google Developers Group Kolkata}{Kolkata, India}
-    {Organized events, conducted workshops and delivered workshops reaching over 7000 developers.}{Jan 2018 - Present}
-
-\resumeSubHeadingListEnd
+      {Federal University Ndufu-Alike}{Ebonyi, Nigeria}
+      {Bachelor of Science - Computer Science;  GPA: 3.4}{Jan 2021 - Oct 2025}
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Operating Systems, Data Structures, Analysis Of Algorithms, Artificial Intelligence, Machine Learning, Networking, Databases}}}
+    \resumeSubHeadingListEnd
 
 \end{document}
