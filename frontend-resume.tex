@@ -5,21 +5,17 @@
 % License : MIT
 %------------------------
 
-\documentclass[a4paper,20pt]{article}
+\documentclass[a4paper, 20pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
 \usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
+\usepackage[usenames, dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
 \usepackage[pdftex]{hyperref}
-\hypersetup{
-  colorlinks=true,
-  urlcolor=blue,
-  pdfborder={0 0 1},
-}
+\hypersetup{colorlinks=true, urlcolor=blue, pdfborder={0 0 1},}
 \usepackage{fancyhdr}
 
 \pagestyle{fancy}
@@ -42,116 +38,113 @@
 \setlength{\tabcolsep}{0in}
 
 % Sections formatting
-\titleformat{\section}{
-  \vspace{-10pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+\titleformat{\section}{ \vspace{-10pt}\scshape\raggedright\large }{}{0em}{}[
+\color{black}
+\titlerule
+\vspace{-6pt}
+]
 
 %-------------------------
 % Custom commands
-\newcommand{\resumeItem}[2]{
-  \item\small{
-    \textbf{#1}{: #2 \vspace{-2pt}}
-  }
-}
+\newcommand{\resumeItem}[2]{ \item\small{ \textbf{#1}{: #2 \vspace{-2pt}} } }
 
-\newcommand{\resumeItemWithoutTitle}[1]{
-  \item\small{
-    {\vspace{-2pt}}
-  }
-}
+\newcommand{\resumeItemWithoutTitle}[1]{ \item\small{ {\vspace{-2pt}} } }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{#3} & \textit{#4} \\
-    \end{tabular*}\vspace{-5pt}
+\vspace{-1pt}
+\item
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & #2          \\
+	\textit{#3} & \textit{#4} \\
+\end{tabular*}
+\vspace{-5pt}
 }
 
-
-\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{3pt}}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}
+\vspace{-4pt}}
 
 \renewcommand{\labelitemii}{$\circ$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{5pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}
+\vspace{5pt}}
 
 %-----------------------------
 %%%%%%  CV STARTS HERE  %%%%%%
 
 \begin{document}
+	%----------HEADING-----------------
+	\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+		\textbf{{\LARGE Iyanuoluwa I. Taiwo}}                                                                                & Email: \href{mailto:iyanuoluwa938@gmail.com}{iyanuoluwa938@gmail.com} \\
+		LinkedIn: \href{https://www.linkedin.com/in/iyanuoluwa-taiwo-540823333/}{linkedin.com/in/iyanuoluwa-taiwo-540823333} & Mobile:~~~+234-813-369-3469                                           \\
+		Github: \href{https://www.github.com/iyanubruce}{~~github.com/iyanubruce}                                            & Lekki, Lagos                                                          \\
+	\end{tabular*}
 
-%----------HEADING-----------------
-\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{{\LARGE Iyanuoluwa I. Taiwo}} & Email: \href{mailto:}{iyanuoluwa938@gmail.com}\\
-  \href{https://iyanuoluwa.com}{Portfolio: iyanuoluwa.com} & Mobile:~~~+234-813-369-3469 \\
-  \href{https://github.com/iyanubruce}{Github: ~~github.com/iyanubruce}  &   \href{https://www.linkedin.com/in/iyanuoluwa-taiwo-540823333/}{Linkedin}  \\
-\end{tabular*}
+	\vspace{10pt}
+	%-----------PROFESSIONAL SUMMARY-----------------
+	\section{Professional Summary}
+	Software Engineer with 3 years of experience developing scalable fintech
+	solutions using TypeScript, JavaScript, and React. Skilled at collaborating with
+	cross-functional teams to deliver projects that enhance user satisfaction and performance.
 
-\vspace{10pt}
-%-----------PROFESSIONAL SUMMARY-----------------
-\section{Professional Summary}
-Software Engineer with 3 years of experience developing scalable fintech solutions using TypeScript, JavaScript, and React. Skilled at collaborating with cross-functional teams to deliver projects that enhance user satisfaction and performance.
-
-\vspace{8pt}
-\section{Skills}
-	\resumeSubHeadingListStart
-	\resumeSubItem{Languages}{~~~~~~TypeScript, JavaScript, SQL}
-	\resumeSubItem{Frameworks}{~~~~React, Nodejs, Nextjs, Tailwind CSS}
+	\vspace{8pt}
+	\section{Skills}
+	\resumeSubHeadingListStart \resumeSubItem{Languages}{~~~~~~TypeScript, JavaScript, SQL}
+	\resumeSubItem{Frameworks}{~~~~React, Next.js, Node.js, Tailwind CSS, Redux, TanStack Query, React Router}
+	\resumeSubItem{Data \& APIs}{~~GraphQL, REST} \resumeSubItem{Testing}{~~~~~~~Jest, Vitest, React Testing Library}
 	\resumeSubItem{Tools}{~~~~~~~~~~~~~~Docker \& Kubernetes, Redis, MongoDB, CI/CD}
 	\resumeSubItem{Methodologies}{~~~~~Agile / Scrum, System Design}
 
-\resumeSubHeadingListEnd
-\vspace{8pt}
-\section{Experience}
-  \resumeSubHeadingListStart
-    \resumeSubheading{Full Stack Developer (contract), Kite}{Remote, Lekki, Lagos}
-    {10/2025 - 05/2026}{}
-    \resumeItemListStart
-        \resumeItem{Cross-Platform Frontend}
-          {Co-developed the cross-platform mobile frontend, implementing state management and real-time synchronization with the unified backend API.}
-        \resumeItem{UI Components}
-          {Translated financial data flows into responsive UI components, improving onboarding and transaction completion experiences for users.}
-        \resumeItem{Secure Authentication}
-          {Integrated secure authentication flows and encrypted local storage, ensuring strict data privacy and seamless app-unlock experiences for users.}
-      \resumeItemListEnd
-\vspace{8pt}
-    \resumeSubheading{FullStack Software Engineer, LocalRamp}{Remote, Lekki, Lagos}
-    {05/2023 - 11/2025}{}
-    \resumeItemListStart
-        \resumeItem{Fiat-to-Crypto Gateway}
-          {Led the frontend development of a high-volume, secure fiat-to-crypto gateway processing millions in monthly transaction volume, fully compliant with PCI-DSS standards and integrated with KYC/AML user verification workflows.}
-        \resumeItem{Analytics Dashboard}
-          {Built a real-time analytics dashboard for operations teams and an embeddable widget adopted by 300+ enterprise clients, contributing to an 18\% improvement in retention.}
-        \resumeItem{UX Collaboration}
-          {Collaborated with UX designers to improve interface layouts, increasing user adoption by 12\%.}
-        \resumeItem{CI/CD Optimization}
-          {Reduced CI/CD pipeline duration by 70\% by streamlining build and deployment stages, and authored API design standards that cut new engineer onboarding time by 40\%.}
-      \resumeItemListEnd
+	\resumeSubHeadingListEnd
+	\vspace{8pt}
+	\section{Experience}
+	\resumeSubHeadingListStart \resumeSubheading{Backend Developer, \href{https://www.tajahq.com/}{Taja}}{Lagos, NG}
+	{Oct 2024 - Present}{} \resumeItemListStart \resumeItem{API Design for Frontend}
+	{Designed and maintained RESTful APIs powering web and mobile products. Collaborated with frontend team to define data contracts that reduced client-side data fetching by 20\%.}
+	\resumeItem{Performance and Security} {Implemented device fingerprinting and abuse-detection systems, cutting account takeover incidents by 30\%. Optimized SQL queries and indexes to improve API response time by 20\%.}
+	\resumeItem{Secure Authentication}
+	{Integrated secure authentication flows and encrypted local storage, ensuring strict data privacy and seamless app-unlock experiences for users.} \resumeItem{Developer Experience}
+	{Built internal tools and monitoring workflows that helped frontend and ops teams ship faster and debug issues in production.}
+	\resumeItemListEnd
 
-\resumeSubHeadingListEnd
+	\resumeSubheading{Full Stack Developer (contract), \href{https://usekite.co/}{Kite}}{Remote, Lekki, Lagos}
+	{10/2025 - 05/2026}{} \resumeItemListStart \resumeItem{Cross-Platform Frontend}
+	{Co-developed the cross-platform mobile frontend, implementing state management and real-time synchronization with the unified backend API.}
+	\resumeItem{UI Components}
+	{Translated financial data flows into responsive UI components, improving onboarding and transaction completion experiences for users.}
+	\resumeItem{Secure Mobile UX} {Integrated secure authentication flows and encrypted local storage, ensuring strict data privacy and seamless app-unlock experiences for users.}
+	\resumeItemListEnd
+	\vspace{8pt}
+	\resumeSubheading{FullStack Software Engineer, \href{https://localramp.co/}{LocalRamp}}{Remote, Lekki, Lagos}
+	{05/2023 - 11/2024}{} \resumeItemListStart \resumeItem{Fiat-to-Crypto Gateway} {Led the frontend development of a high-volume, secure fiat-to-crypto gateway processing millions in monthly transaction volume, fully compliant with PCI-DSS standards and integrated with KYC/AML user verification workflows.}
+	\resumeItem{Analytics Dashboard}
+	{Built a real-time analytics dashboard for operations teams and an embeddable widget adopted by 300+ enterprise clients, contributing to an 18\% improvement in retention.}
+	\resumeItem{UX Collaboration} {Collaborated with UX designers to improve interface layouts, increasing user adoption by 12\%.}
+	\resumeItem{CI/CD Optimization}
+	{Reduced CI/CD pipeline duration by 70\% by streamlining build and deployment stages, and authored API design standards that cut new engineer onboarding time by 40\%.}
+	\resumeItemListEnd
 
-\vspace{8pt}
-%-----------PROJECTS-----------------
-\section{Projects}
-\resumeSubHeadingListStart
-\resumeSubItem{\href{https://github.com/iyanubruce/rate-limiter}{RateLimitr}}
-  {Led the frontend architecture and interface design for an enterprise-grade rate-limiting platform, capable of handling 10,000+ RPS across 50+ nodes and delivering real-time security analytics to over 10,000 concurrent tenants.}
-\vspace{2pt}
-\resumeSubItem{\href{https://localramp.co/}{Local Ramp}}
-  {Led the frontend development of a high-volume, secure fiat-to-crypto gateway processing millions in monthly transaction volume, fully compliant with PCI-DSS standards and integrated with KYC/AML user verification workflows.}
-\resumeSubHeadingListEnd
+	\resumeSubHeadingListEnd
 
-\vspace{8pt}
-%-----------EDUCATION-----------------
-\section{~~Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Bachelor of Science in Computer Science}{Ikwo, Ebonyi}
-      {Alex Ekwuememe Federal University, Ebonyi State, Abakaliki}{01/2021 - 01/2025}
-    \resumeSubHeadingListEnd
+	\vspace{8pt}
+	%-----------PROJECTS-----------------
+	\section{Projects}
+	\resumeSubHeadingListStart \resumeSubItem{\href{https://github.com/iyanubruce/RateLimiter-Frontend}{RateLimitr}}
+	{Led the frontend architecture and interface design for an enterprise-grade rate-limiting platform, capable of handling 10,000+ RPS across 50+ nodes and delivering real-time security analytics to over 10,000 concurrent tenants.}
+	\vspace{2pt}
+	\resumeSubItem{\href{https://localramp.co/}{Local Ramp}}
+	{participated in key roles in the frontend development of a high-volume, secure fiat-to-crypto gateway processing millions in monthly transaction volume, fully compliant with PCI-DSS standards and integrated with KYC/AML user verification workflows.}
+	\resumeSubHeadingListEnd
 
-\vspace{10pt}
+	\vspace{8pt}
+	%-----------EDUCATION-----------------
+	\section{~~Education}
+	\resumeSubHeadingListStart \resumeSubheading {Bachelor of Science in Computer Science}{Ikwo, Ebonyi}
+	{Alex Ekwuememe Federal University, Ebonyi State, Abakaliki; GPA: 3.5}{01/2021 - 01/2025}
+	\small{\textit{Relevant Coursework: Web Development, UI/UX Design, Human-Computer Interaction, Database Systems, Data Structures, Operating Systems, Networking}}
+	\resumeSubHeadingListEnd
+
+	\vspace{10pt}
 \end{document}

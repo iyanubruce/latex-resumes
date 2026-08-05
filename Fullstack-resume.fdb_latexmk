@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1784809503.91937 "/home/iyanuoluwa/Documents/latex-resumes/Fullstack-resume.tex" "Fullstack-resume.pdf" "Fullstack-resume" 1784809504.63731 0
-  "/home/iyanuoluwa/Documents/latex-resumes/Fullstack-resume.tex" 1784809503.59627 9735 552c4af682a0b37b22297f266eac4088 ""
+["pdflatex"] 1785936481.78163 "/home/iyanuoluwa/Documents/latex-resumes/Fullstack-resume.tex" "Fullstack-resume.pdf" "Fullstack-resume" 1785936482.26141 0
+  "/home/iyanuoluwa/Documents/latex-resumes/Fullstack-resume.tex" 1785935544.87681 9282 db2f6e702f6d6b072faaf39f67cd0f50 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm" 1136768653 1536 c4f439db76ef96a9c53bc437f35ffe20 ""
@@ -85,11 +85,11 @@
   "/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty" 1667332637 7392 f19cdc68ae9f1190dbd54eee6d29fb7c ""
   "/usr/share/texlive/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1775001600 40900 887e0dc8cac988a9e9c574af364cf837 ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1784802267.01474 4602016 72a039a3c4aea0fa25b5d35d65138f54 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1784801795 7753793 025b88125b0bc5340f2e47b147ccadf6 ""
-  "Fullstack-resume.aux" 1784809504.53724 1134 62cb6712e76e8dd22e12e8833332a811 "pdflatex"
-  "Fullstack-resume.out" 1784809504.53824 542 1aca4814ea514fb4b62de1f8213d90c4 "pdflatex"
-  "Fullstack-resume.tex" 1784809503.59627 9735 552c4af682a0b37b22297f266eac4088 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1785783776.29745 4547210 0b4d8bce3d83ee4f50b88a57a6a0d7ef ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1785783202 7759956 8db7cf935b173d3e2022881374e6610a ""
+  "Fullstack-resume.aux" 1785936482.19765 1134 62cb6712e76e8dd22e12e8833332a811 "pdflatex"
+  "Fullstack-resume.out" 1785936482.19765 542 1aca4814ea514fb4b62de1f8213d90c4 "pdflatex"
+  "Fullstack-resume.tex" 1785935544.87681 9282 db2f6e702f6d6b072faaf39f67cd0f50 ""
   (generated)
   "Fullstack-resume.aux"
   "Fullstack-resume.log"
