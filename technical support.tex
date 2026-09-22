@@ -91,15 +91,15 @@
 \end{tabular*}
 %-----------PROFESSIONAL SUMMARY-----------------
 \section{Professional Summary}
-Software Engineer with 3+ years of experience in technical support, client integration, and building scalable fintech solutions. Proven track record of troubleshooting complex payment processing issues, onboarding enterprise clients, and delivering developer-friendly documentation and tooling.
+Technical Support Engineer with 3+ years of experience supporting enterprise fintech clients, troubleshooting API and payment issues, and driving integrations to resolution. Skilled in diagnosing API/webhook failures, triaging and escalating incidents by severity, and delivering developer documentation and runbooks that reduce ticket volume and onboarding time.
 \vspace{-5pt}
 \section{Skills Summary}
 	\resumeSubHeadingListStart
+	\resumeSubItem{Support \& Tools}{Ticketing (Zendesk/Intercom/Jira), Monitoring \& Alerting (Sentry, Grafana, Datadog, PagerDuty), API Testing (Postman, cURL, Webhooks, OpenAPI/Swagger), Knowledge Base \& Documentation (Confluence, Notion, Runbooks)}
 	\resumeSubItem{Languages}{~~~~~~TypeScript, JavaScript, SQL, Python, Bash}
-	\resumeSubItem{Frameworks}{~~~~React, Nextjs, NodeJS, Express, Redis}
-	\resumeSubItem{Tools}{~~~~~~~~~~~~~~Docker, Kubernetes, GIT, PostgreSQL, MongoDB}
-	\resumeSubItem{Platforms}{~~~~~~~Linux, Web, Windows, AWS}
-	\resumeSubItem{Support}{~~~~~~~~~Client Onboarding, API Integration, Technical Documentation, Issue Triage, Escalation Management}
+	\resumeSubItem{Frameworks}{~~~~Node.js, Express, React}
+	\resumeSubItem{Data}{~~~~~~~~~~~~~~~PostgreSQL, MongoDB (querying and debugging transaction data)}
+	\resumeSubItem{Platforms}{~~~~~~~Linux, AWS, Docker}
 	\resumeSubItem{Soft Skills}{~~~~~~~Communication, Problem-Solving, Leadership, Time Management}
 
 \resumeSubHeadingListEnd
@@ -109,29 +109,27 @@ Software Engineer with 3+ years of experience in technical support, client integ
     \resumeSubheading{Backend Developer, \href{https://www.tajahq.com/}{Taja}}{Lagos, NG}
     {Oct 2024 - Present}{}
     \resumeItemListStart
-        \resumeItem{Abuse Detection}
-          {Implemented device fingerprinting and abuse-detection controls to identify impersonation attempts, reducing account takeover incidents by 30\%.}
-        \resumeItem{Code Review Workflows}
-          {Built monitoring and review workflows that supported code review cadences and mentorship sessions, improving engineering team delivery consistency and code quality.}
-        \resumeItem{Query Optimization}
-          {Optimized SQL queries and database indexes to reduce average database request latency by 20\%.}
-        \resumeItem{Admin Dashboard}
-          {Developed an admin dashboard for internal operations workflows, helping increase organizational productivity by 50\% through faster task handling and reporting.}
+        \resumeItem{Client \& Partner Support}
+          {Supported enterprise partners integrating payment and identity-verification APIs, diagnosing connectivity and webhook delivery issues and driving them to first resolution.}
+        \resumeItem{API Diagnostics \& Failure Handling}
+          {Identified failing payment and identity providers and routed requests to backup providers via automatic failover, minimizing downtime across live integrations.}
+        \resumeItem{Monitoring \& Incident Response}
+          {Maintained production monitoring, alerting, and incident triage workflows (Sentry, Grafana, PagerDuty), reducing mean time to detect and resolve client-facing incidents.}
+        \resumeItem{Escalation \& Documentation}
+          {Owned the escalation path from first report to fix, documenting root causes in runbooks that cut repeat tickets and improved support-team resolution speed.}
       \resumeItemListEnd
 \vspace{-5pt}
     \resumeSubheading{Software Engineer (contract), \href{https://usekite.co/}{Kite}}{Lagos, NG}
     {Oct 2025 - May 2026}{}
     \resumeItemListStart
-        \resumeItem{Unified API Layer}
-          {Architected a unified API layer around major payment providers, consolidating complex financial rails into a single high-performance interface used by multiple client applications.}
-        \resumeItem{Team Leadership}
-          {Led a team of 2 engineers, defining the technical roadmap, code-review standards, and quarterly planning process while maintaining 99.9\% system uptime.}
-        \resumeItem{Regression Testing}
-          {Introduced automated regression testing across critical payment flows, cutting production bug escapes by over 50\% in the first quarter.}
-        \resumeItem{Cross-Platform Frontend}
-          {Co-developed the cross-platform mobile frontend, implementing state management and real-time synchronization with the unified backend API.}
-        \resumeItem{UI Components}
-          {Translated financial data flows into responsive UI components, improving onboarding and transaction completion experiences for users.}
+        \resumeItem{API Testing \& QA}
+          {Introduced automated regression testing across critical payment flows, verifying APIs and cutting production bug escapes by over 50\% in the first quarter.}
+        \resumeItem{Client-Facing Troubleshooting}
+          {Debugged cross-platform app issues reported by users, investigating state management and real-time synchronization failures against the unified backend API.}
+        \resumeItem{Technical Documentation}
+          {Developed developer-focused documentation and troubleshooting guides that helped client and ops teams onboard faster and resolve issues in production.}
+        \resumeItem{Support Engineering Collaboration}
+          {Worked with support and ops teams to reproduce, diagnose, and ship fixes for production and client-reported issues, maintaining 99.9\% system uptime.}
       \resumeItemListEnd
 \vspace{-5pt}
     \resumeSubheading{Software Engineer / Technical Support, \href{https://localramp.co/}{LocalRamp}}{Lagos}
@@ -143,12 +141,8 @@ Software Engineer with 3+ years of experience in technical support, client integ
           {Authored developer-friendly API documentation, integration guides, and troubleshooting runbooks that reduced client onboarding time by 40\% and lowered recurring support ticket volume by 25\%.}
         \resumeItem{Issue Triage \& Escalation}
           {Established a structured issue triage and escalation workflow, categorizing and prioritizing client-reported bugs by severity, reducing average resolution time from 48 hours to under 12 hours.}
-        \resumeItem{Fiat-to-Crypto Gateway}
-          {Led end-to-end development of a fiat-to-crypto gateway processing millions in monthly transaction volume, with PCI-DSS compliance and KYC/AML integration.}
         \resumeItem{Client Retention}
           {Built a real-time analytics dashboard and embeddable widget adopted by 300+ enterprise clients, contributing to an 18\% improvement in client retention through proactive issue identification.}
-        \resumeItem{CI/CD Optimization}
-          {Reduced CI/CD pipeline duration by 20\% by streamlining build and deployment stages, and authored API design standards that cut new engineer onboarding time by 40\%.}
       \resumeItemListEnd
 \resumeSubHeadingListEnd
 
@@ -156,9 +150,6 @@ Software Engineer with 3+ years of experience in technical support, client integ
 \vspace{-5pt}
 \section{Projects}
 \resumeSubHeadingListStart
-\resumeSubItem{\href{https://github.com/iyanubruce/rate-limiter}{RateLimitr} (TypeScript, Fastify, Redis, TimescaleDB) -- 2024}
-  {Distributed rate-limiting service with 4 pluggable algorithms and atomic Redis Lua operations — 10,000+ RPS with zero race conditions across 50+ nodes. Multi-tenant architecture for 10,000+ concurrent tenants with hot-swappable strategies and TimescaleDB-powered real-time analytics.}
-\vspace{2pt}
 \resumeSubItem{\href{https://github.com/iyanubruce/Synapse.git}{Synapse} (TypeScript, Express, MongoDB, Redis)}
   {Architected a multi-tenant payment API integrating 3+ providers via adapter pattern for virtual accounts, KYC, and cross-border payouts. Implemented async processing with RabbitMQ/Bull and secured with JWT, rate limiting, and structured logging.}
 \resumeSubHeadingListEnd

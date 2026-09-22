@@ -1,0 +1,26 @@
+Here are concrete ways engineers cut CI/CD time by ~70%:
+Parallelize everything
+- Split the pipeline into parallel jobs (lint/test/build/scan run concurrently) using build matrices for multi-version/multi-platform tests.
+- Use needs/DAG conditions so jobs start early, and split the test suite across shards (e.g. jest --shard or GitHub Actions test matrices).
+Cache aggressively
+- Cache package manager caches (npm/pnpm/yarn, pip, Go mod), build artifacts, and Playwright/Chrome binaries.
+- Layer your Docker builds (RUN ordering + COPY package*.json before source) so dependency layers only rebuild on lockfile changes; reuse base images.
+- Use remote/CI-native caches (GitHub Actions actions/cache, CircleCI, GitLab) with branch-aware cache keys.
+Skip what you don't need
+- Path filtering: only build/test touched services (monorepo tooling like Turborepo, Nx).
+- Conditionally skip label/branch pipelines, docs-only PRs, and full E2E on non-release branches.
+- Merge checks: run fast unit tests on every commit; defer E2E/perf to merge or nightly.
+Make builds faster
+- Swap slow runners for faster hardware (bigger CPU/RAM), or ARM/Apple Silicon runners.
+- Replace heavyweight bundlers/build steps (e.g. esbuild/swc instead of babel/tsc-only), prebuild webpack/vite caches.
+- Docker layer caching on a warm registry + --mount=type=cache for package installs; avoid full npm ci when possible.
+- Keep environments warm (prewarmed images, daemon reuse) instead of cold boots.
+Optimize test efficiency
+- Run only affected tests; use watch-mode runners (Vitest) rather than re-running the whole suite.
+- Kill slow/dead tests, use test DB snapshots instead of re-seeding, parallelize integration suites.
+Cut waste
+- Cap artifact retention, compress artifacts, use built-in code quality checks over expensive custom tooling.
+- Move curl-style health checks into deploy steps instead of separate jobs; combine build+test into one job with the right cache.
+- Use better caching of Docker-in-Docker/sidecar services.
+For a resume bullet, you'd typically support "70%" with one or two concrete example techniques (e.g. "by parallelizing test shards and caching Docker layers/package deps").
+Want me to rewrite the resume bullet to include a technique like that?

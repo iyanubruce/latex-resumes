@@ -1,6 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1790087354.13337 "/Users/iyanuoluwa/Documents/latex-resumes/technical support.tex" "technical support.pdf" "technical support" 1790087354.83209 0
-  "/Users/iyanuoluwa/Documents/latex-resumes/technical support.tex" 1787661246.24384 8676 1819641dc03bd197a9d1958b66a4872a ""
+["pdflatex"] 1790101422.48898 "technical support.tex" "technical support.pdf" "technical support" 1790101423.1229 0
   "/Users/iyanuoluwa/Library/texlive/2024basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1790086827.30235 79343 f5e3a19efef13a79b2a39a1a413a5ff9 ""
   "/Users/iyanuoluwa/Library/texlive/2024basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0900.600pk" 1790086981.09194 10448 a75cd9a287ed2fceb97bad659fd6446c ""
   "/Users/iyanuoluwa/Library/texlive/2024basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk" 1790086981.5197 11524 7816a74ab590554875d594f5c3b42571 ""
@@ -85,9 +84,9 @@
   "/usr/local/texlive/2024basic/texmf-dist/web2c/texmf.cnf" 1708706663 41649 5d6ae549fbbcb850a863f69aa41f3d10 ""
   "/usr/local/texlive/2024basic/texmf-var/web2c/pdftex/pdflatex.fmt" 1787669286 7536451 49ce852956701dc35b87c7a7555e8afb ""
   "/usr/local/texlive/2024basic/texmf.cnf" 1710011638 628 8b896f7d9d41b43f4346b9091e52171f ""
-  "technical support.aux" 1790087354.69277 710 a69ce9e477e23cff289c1de218e30b3d "pdflatex"
-  "technical support.out" 1790087354.69397 542 1aca4814ea514fb4b62de1f8213d90c4 "pdflatex"
-  "technical support.tex" 1787661246.24384 8676 1819641dc03bd197a9d1958b66a4872a ""
+  "technical support.aux" 1790101422.99565 710 a69ce9e477e23cff289c1de218e30b3d "pdflatex"
+  "technical support.out" 1790101422.99638 542 1aca4814ea514fb4b62de1f8213d90c4 "pdflatex"
+  "technical support.tex" 1790101419.27039 7995 59b121d7fb04504c016bcede3671bdc3 ""
   (generated)
   "technical support.aux"
   "technical support.log"
