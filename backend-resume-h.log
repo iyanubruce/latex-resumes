@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2026.8.25)  22 SEP 2026 15:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2026.8.25)  24 SEP 2026 14:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -252,24 +252,24 @@ LaTeX Warning: Unused global option(s):
 (./backend-resume-h.aux)
 \openout1 = `backend-resume-h.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
 
 (/usr/local/texlive/2024basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -285,25 +285,25 @@ LaTeX Font Info:    ... okay on input line 84.
 \makeMPintoPDFobject=\count282
 \everyMPtoPDFconversion=\toks24
 )
-Package hyperref Info: Link coloring ON on input line 84.
+Package hyperref Info: Link coloring ON on input line 103.
  (./backend-resume-h.out) (./backend-resume-h.out)
 \@outlinefile=\write3
 \openout3 = `backend-resume-h.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 87.
+(Font)              <7> on input line 106.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 87.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 87
-.
+(Font)              <5> on input line 106.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 10
+6.
 
 (/usr/local/texlive/2024basic/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 116.
+(Font)              <9> on input line 134.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 116.
+(Font)              <6> on input line 134.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -322,32 +322,29 @@ Package rerunfilecheck Info: File `backend-resume-h.out' has not changed.
 (rerunfilecheck)             Checksum: AE03B4795DA4DB1E0C90FC9847EDEFEA;499.
  ) 
 Here is how much of TeX's memory you used:
- 9437 strings out of 475567
- 145637 string characters out of 5777889
- 1955187 words of memory out of 5000000
- 31483 multiletter control sequences out of 15000+600000
- 564025 words of font info for 58 fonts, out of 8000000 for 9000
+ 9436 strings out of 475567
+ 145700 string characters out of 5777889
+ 1952187 words of memory out of 5000000
+ 31485 multiletter control sequences out of 15000+600000
+ 562965 words of font info for 55 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 75i,11n,79p,816b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,319b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/iyanuoluwa/Library/texlive/2024basic/texmf-var/fonts/pk/ljfour/jknap
 pen/ec/tcrm0900.600pk> </Users/iyanuoluwa/Library/texlive/2024basic/texmf-var/f
 onts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/local/texlive/2024basic/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024basic/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024basic
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2024ba
-sic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/
-2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/tex
-live/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
-texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/loca
-l/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
-local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></u
-sr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
-></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.
-pfb>
-Output written on backend-resume-h.pdf (1 page, 161671 bytes).
+sic/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2
+024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
+e/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texl
+ive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
+texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/loc
+al/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on backend-resume-h.pdf (1 page, 135343 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
+ 94 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
  7 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -50,7 +50,7 @@
 % Custom commands
 \newcommand{\resumeItem}[2]{
   \item\small{
-    \textbf{#1}{: #2 \vspace{-2pt}}
+    \textbf{#1}{: #2}
   }
 }
 
@@ -61,22 +61,41 @@
 }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-1pt}\item
+  \vspace{-1pt}\item[]
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{#3} & \textit{#4} \\
-    \end{tabular*}\vspace{-5pt}
+    \end{tabular*}\vspace{1pt}
+}
+
+
+\newcommand{\resumeJobHeading}[4]{ % {JobTitle}{Location}{Dates}{Company}
+  \vspace{4pt}\item[]
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{#3} \\
+      \textbf{#4} & \textit{#2} \\
+    \end{tabular*}
+    \vspace{0pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{ % {Project Name}{Date}
+  \vspace{4pt}\item[]
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{#2} \\
+    \end{tabular*}
+    \vspace{0pt}
 }
 
 
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
 
-\renewcommand{\labelitemii}{$\circ$}
+\renewcommand{\labelitemii}{$\bullet$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,topsep=4pt]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[topsep=0pt,itemsep=0pt,parsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
 
 %-----------------------------
 %%%%%%  CV STARTS HERE  %%%%%%
@@ -87,7 +106,7 @@
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{{\LARGE Iyanuoluwa I. Taiwo}} & Email: \href{mailto:}{iyanuoluwa938@gmail.com}\\
   LinkedIn: \href{https://www.linkedin.com/in/iyanuoluwa-taiwo-540823333/} {linkedin.com/in/iyanuoluwa-taiwo-540823333} & Mobile:~~~+234-813-369-3469 \\
-  Github: \href{https://www.github.com/iyanubruce}{~~github.com/iyanubruce}  &   Lekki, Lagos  \\
+  Github: \href{https://www.github.com/iyanubruce}{~~github.com/iyanubruce}  &   Lagos, NG  \\
 \end{tabular*}
 
 %-----------PROFESSIONAL SUMMARY-----------------
@@ -107,25 +126,18 @@ Backend Engineer with 2 years of experience designing and building scalable, low
 \vspace{-5pt}
 \section{Experience}
   \resumeSubHeadingListStart
-    \resumeSubheading{Backend Developer, \href{https://www.tajahq.com/}{Taja}}{Lagos}
-    {Nov 2024 - Present}{}
+    \resumeJobHeading{Backend Engineer}{Lagos, NG}{Nov 2024 - Present}{Taja}
     \resumeItemListStart
         \resumeItem{Abuse Detection}
           {Implemented device fingerprinting and abuse-detection controls to identify impersonation attempts, reducing account takeover incidents by 30\%.}
-        \resumeItem{Code Review Workflows}
-          {Built monitoring and review workflows that supported code review cadences and mentorship sessions, improving engineering team delivery consistency and code quality.}
-        \resumeItem{Query Optimization}
-          {Optimized SQL queries and database indexes to reduce average database request latency by 20\%.}
-        \resumeItem{Admin Dashboard}
-          {Developed an admin dashboard for internal operations workflows, helping increase organizational productivity by 50\% through faster task handling and reporting.}
+        \resumeItem{Query \& Database Design}
+          {Optimized SQL queries, database indexes, and schema design to cut average request latency by 20\% while improving data integrity across core fintech features.}
         \resumeItem{Third-Party Integrations}
           {Integrated external APIs for payments and identity verification, building provider-agnostic abstraction with automatic failover that routes requests to backup providers when any single service fails, ensuring uninterrupted uptime.}
-        \resumeItem{Database Design}
-          {Designed and developed database structures, including schemas and relationships, that improved data integrity and query efficiency across core fintech features.}
+        \resumeItem{Admin Dashboard}
+          {Developed an admin dashboard for internal operations workflows, helping increase organizational productivity by 50\% through faster task handling and reporting.}
       \resumeItemListEnd
-\vspace{-5pt}
-    \resumeSubheading{Software Engineer (contract), \href{https://usekite.co/}{Kite}}{Lagos}
-    {Oct 2025 - May 2026}{}
+    \resumeJobHeading{Software Engineer (contract)}{Lagos, NG}{Oct 2025 - May 2026}{Kite}
     \resumeItemListStart
         \resumeItem{Unified API Layer}
           {Architected a unified API layer around major payment providers, consolidating complex financial rails into a single high-performance interface used by multiple client applications.}
@@ -142,11 +154,14 @@ Backend Engineer with 2 years of experience designing and building scalable, low
 %-----------PROJECTS-----------------
 \section{Projects}
 \resumeSubHeadingListStart
-\resumeSubItem{\href{https://github.com/iyanubruce/rate-limiter}{RateLimitr} (TypeScript, Fastify, Redis, TimescaleDB) -- 2024}
-  {Distributed rate-limiting service with 4 pluggable algorithms and atomic Redis Lua operations — 10,000+ RPS with zero race conditions across 50+ nodes. Multi-tenant architecture for 10,000+ concurrent tenants with hot-swappable strategies and TimescaleDB-powered real-time analytics.}
-\vspace{2pt}
-\resumeSubItem{\href{https://github.com/iyanubruce/Synapse.git}{Synapse} (TypeScript, Express, MongoDB, Redis)}
-  {Architected a provider-agnostic Strategy/Adapter pattern unifying 3 payment providers behind a single IProviderAdapter interface — enabling hot-swappable provider integration without client code changes. Built a multi-tenant API handling virtual accounts, cards, KYC/KYB, cross-border payouts, and currency swaps across 6+ external financial services with workspace-scoped isolation. Implemented event-driven background processing via RabbitMQ consumers and Bull queues for async email delivery, virtual account creation, and scheduled exchange rate updates. Designed a layered architecture with JWT/API-key auth, rate limiting, structured logging (Winston), Sentry error tracking, and S3-compatible file storage — processing millions in transaction volume.}
+\resumeProjectHeading{RateLimitr (TypeScript, Fastify, Redis, TimescaleDB)}{2024}
+  \resumeItemListStart
+    \item\small{Distributed multi-tenant rate-limiting service handling 10,000+ RPS across 50+ nodes using atomic Redis Lua operations. Features real-time analytics via TimescaleDB.}
+  \resumeItemListEnd
+\resumeProjectHeading{Synapse (TypeScript, Express, MongoDB, Redis)}{}
+  \resumeItemListStart
+    \item\small{Multi-tenant payment API unifying 3 providers behind a single adapter interface — virtual accounts, cards, KYC/KYB, and cross-border payouts across 6+ financial services. Secured with JWT/API-key auth, rate limiting, structured logging, and Sentry.}
+  \resumeItemListEnd
 \resumeSubHeadingListEnd
 
 %-----------EDUCATION-----------------
@@ -155,7 +170,9 @@ Backend Engineer with 2 years of experience designing and building scalable, low
     \resumeSubheading
       {Alex Ekwuememe Federal University, Ebonyi State, Abakaliki}{Ebonyi, Nigeria}
       {Bachelor of Science - Computer Science;  GPA: 3.5}{Jan 2021 - Oct 2025}
-      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Operating Systems, Data Structures, Analysis Of Algorithms, Artificial Intelligence, Machine Learning, Networking, Databases}}}
+    \resumeItemListStart
+      \resumeItem{Courses}{Operating Systems, Data Structures, Analysis Of Algorithms, Artificial Intelligence, Machine Learning, Networking, Databases}
+    \resumeItemListEnd
     \resumeSubHeadingListEnd
 
 \end{document}

@@ -46,30 +46,48 @@
 
 %-------------------------
 % Custom commands
-\newcommand{\resumeItem}[2]{ \item\small{ \textbf{#1}{: #2 \vspace{-2pt}} } }
+\newcommand{\resumeItem}[2]{ \item\small{ \textbf{#1}{: #2} } }
 
 \newcommand{\resumeItemWithoutTitle}[1]{ \item\small{ {\vspace{-2pt}} } }
 
 \newcommand{\resumeSubheading}[4]{
 \vspace{-1pt}
-\item
+\item[]
 \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
 	\textbf{#1} & #2          \\
 	\textit{#3} & \textit{#4} \\
 \end{tabular*}
-\vspace{-5pt}
+\vspace{1pt}
+}
+
+\newcommand{\resumeJobHeading}[4]{ % {JobTitle}{Location}{Dates}{Company}
+\vspace{4pt}
+\item[]
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & \textit{#3} \\
+	\textbf{#4} & \textit{#2} \\
+\end{tabular*}
+\vspace{0pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{ % {Project Name}{Date}
+\vspace{4pt}
+\item[]
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & \textit{#2} \\
+\end{tabular*}
+\vspace{0pt}
 }
 
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}
 \vspace{-4pt}}
 
-\renewcommand{\labelitemii}{$\circ$}
+\renewcommand{\labelitemii}{$\bullet$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,topsep=4pt]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}
-\vspace{5pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[topsep=0pt,itemsep=0pt,parsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
 
 %-----------------------------
 %%%%%%  CV STARTS HERE  %%%%%%
@@ -79,29 +97,33 @@
 	\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
 		\textbf{{\LARGE Iyanuoluwa I. Taiwo}}                                                                                & Email: \href{mailto:iyanuoluwa938@gmail.com}{iyanuoluwa938@gmail.com} \\
 		LinkedIn: \href{https://www.linkedin.com/in/iyanuoluwa-taiwo-540823333/}{linkedin.com/in/iyanuoluwa-taiwo-540823333} & Mobile:~~~+234-813-369-3469                                           \\
-		Github: \href{https://www.github.com/iyanubruce}{~~github.com/iyanubruce}                                            & Lekki, Lagos                                                          \\
+		Github: \href{https://www.github.com/iyanubruce}{~~github.com/iyanubruce}                                            & Lagos, NG                                                          \\
 	\end{tabular*}
 
-	\vspace{10pt}
+	\vspace{0pt}
 	%-----------PROFESSIONAL SUMMARY-----------------
 	\section{Professional Summary}
-	Software Engineer with 3 years of experience developing scalable fintech
-	solutions using TypeScript, JavaScript, and React. Skilled at collaborating with
-	cross-functional teams to deliver projects that enhance user satisfaction and performance.
+	Frontend Engineer with 3 years of experience building high-performance fintech
+	products with React, Next.js, and TypeScript. Led the frontend of a PCI-DSS-compliant
+	fiat-to-crypto gateway and shipped real-time dashboards and cross-platform mobile
+	interfaces adopted by 300+ enterprise clients. Skilled at turning complex financial
+	data flows into fast, reliable, user-friendly experiences.
 
-	\vspace{8pt}
+	\vspace{0pt}
 	\section{Skills}
-	\resumeSubHeadingListStart \resumeSubItem{Languages}{~~~~~~TypeScript, JavaScript, SQL}
-	\resumeSubItem{Frameworks}{~~~~React, Next.js, Node.js, Tailwind CSS, Redux, TanStack Query, React Router}
-	\resumeSubItem{Data \& APIs}{~~GraphQL, REST} \resumeSubItem{Testing}{~~~~~~~Jest, Vitest, React Testing Library}
-	\resumeSubItem{Tools}{~~~~~~~~~~~~~~Docker \& Kubernetes, Redis, MongoDB, CI/CD}
-	\resumeSubItem{Methodologies}{~~~~~Agile / Scrum, System Design}
-
+	\resumeSubHeadingListStart
+	\resumeSubItem{Languages}{~~~~~~TypeScript, JavaScript, SQL}
+	\resumeSubItem{Frameworks}{~~~~React, Next.js, Tailwind CSS, Redux, TanStack Query, React Router}
+	\resumeSubItem{Data \& APIs}{~~GraphQL, REST}
+	\resumeSubItem{Testing}{~~~~~~~Jest, Vitest, React Testing Library}
+	\resumeSubItem{Tools}{~~~~~~~~~~~~~~Docker \& Kubernetes, CI/CD, Redis, MongoDB}
+	\resumeSubItem{Practices}{~~~~Agile / Scrum, System Design}
 	\resumeSubHeadingListEnd
-	\vspace{8pt}
+	\vspace{0pt}
 	\section{Experience}
-	\resumeSubHeadingListStart \resumeSubheading{Full Stack Developer, \href{https://www.tajahq.com/}{Taja}}{Lagos, NG}
-	{Oct 2024 - Present}{} \resumeItemListStart \resumeItem{Frontend Collaboration}
+	\resumeSubHeadingListStart
+	\resumeJobHeading{Full Stack Developer}{Lagos, NG}{Oct 2024 - Present}{Taja}
+	\resumeItemListStart \resumeItem{Frontend Collaboration}
 	{Collaborated with the frontend team to define data contracts and API shapes that reduced client-side data fetching by 20\%, improving page load and rendering performance across web and mobile products.}
 	\resumeItem{Frontend Performance}
 	{Worked with UI engineers to optimize data-fetching patterns and API responses, cutting client-side request latency and delivering faster, more responsive user interfaces.}
@@ -110,16 +132,16 @@
 	\resumeItem{Developer Experience} {Built internal tools and monitoring workflows that helped frontend and ops teams ship faster and debug issues in production.}
 	\resumeItemListEnd
 
-	\resumeSubheading{Frontend Developer (contract), \href{https://usekite.co/}{Kite}}{Remote, Lekki, Lagos}
-	{Oct 2025 - May 2026}{} \resumeItemListStart \resumeItem{Cross-Platform Frontend}
+	\resumeJobHeading{Frontend Developer (contract)}{Lagos, NG}{Oct 2025 - May 2026}{Kite}
+	\resumeItemListStart \resumeItem{Cross-Platform Frontend}
 	{Co-developed the cross-platform mobile frontend, implementing state management and real-time synchronization with the unified backend API.}
 	\resumeItem{UI Components} {Translated financial data flows into responsive UI components, improving onboarding and transaction completion experiences for users.}
 	\resumeItem{Secure Mobile UX}
 	{Designed secure mobile UX patterns with encrypted local storage and consistent authentication states across app-launch and unlock flows, preserving data privacy without disrupting the user experience.}
 	\resumeItemListEnd
-	\vspace{8pt}
-	\resumeSubheading{Full Stack Software Engineer, \href{https://localramp.co/}{LocalRamp}}{Remote, Lekki, Lagos}
-	{May 2023 - Nov 2024}{} \resumeItemListStart \resumeItem{Fiat-to-Crypto Gateway}
+
+	\resumeJobHeading{Full Stack Software Engineer}{Lagos, NG}{May 2023 - Nov 2024}{LocalRamp}
+	\resumeItemListStart \resumeItem{Fiat-to-Crypto Gateway}
 	{Led the frontend development of a high-volume, secure fiat-to-crypto gateway processing millions in monthly transaction volume, fully compliant with PCI-DSS standards and integrated with KYC/AML user verification workflows.}
 	\resumeItem{Analytics Dashboard} {Built a real-time analytics dashboard for operations teams and an embeddable widget adopted by 300+ enterprise clients, contributing to an 18\% improvement in retention.}
 	\resumeItem{UX Collaboration}
@@ -128,23 +150,29 @@
 
 	\resumeSubHeadingListEnd
 
-	\vspace{8pt}
+	\vspace{0pt}
 	%-----------PROJECTS-----------------
 	\section{Projects}
-	\resumeSubHeadingListStart \resumeSubItem{\href{https://github.com/iyanubruce/RateLimiter-Frontend}{RateLimitr}}
-	{Led the frontend architecture and interface design for an enterprise-grade rate-limiting platform, capable of handling 10,000+ RPS across 50+ nodes and delivering real-time security analytics to over 10,000 concurrent tenants.}
-	\vspace{2pt}
-	\resumeSubItem{\href{https://localramp.co/}{LocalRamp Web Wallet}}
-	{Shipped frontend features for a PCI-DSS-compliant fiat-to-crypto wallet, including onboarding flows, transaction history views, and embeddable payment widgets used by enterprise clients.}
+	\resumeSubHeadingListStart
+	\resumeProjectHeading{RateLimitr}{}
+	\resumeItemListStart
+		\item\small{Led the frontend architecture and interface design for an enterprise-grade rate-limiting platform, capable of handling 10,000+ RPS across 50+ nodes and delivering real-time security analytics to over 10,000 concurrent tenants.}
+	\resumeItemListEnd
+	\resumeProjectHeading{LocalRamp Web Wallet}{}
+	\resumeItemListStart
+		\item\small{Shipped frontend features for a PCI-DSS-compliant fiat-to-crypto wallet, including onboarding flows, transaction history views, and embeddable payment widgets used by enterprise clients.}
+	\resumeItemListEnd
 	\resumeSubHeadingListEnd
 
-	\vspace{8pt}
+	\vspace{-4pt}
 	%-----------EDUCATION-----------------
 	\section{~~Education}
 	\resumeSubHeadingListStart \resumeSubheading
 	{Alex Ekwuememe Federal University, Ebonyi State, Abakaliki}{Ebonyi, Nigeria}
 	{Bachelor of Science - Computer Science;  GPA: 3.5}{Jan 2021 - Oct 2025}
-	{\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Operating Systems, Data Structures, Analysis Of Algorithms, Artificial Intelligence, Machine Learning, Networking, Databases}}}
+	\resumeItemListStart
+		\resumeItem{Courses}{Operating Systems, Data Structures, Analysis Of Algorithms, Artificial Intelligence, Machine Learning, Networking, Databases}
+	\resumeItemListEnd
 	\resumeSubHeadingListEnd
 
 	\vspace{10pt}

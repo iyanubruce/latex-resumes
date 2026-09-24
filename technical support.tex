@@ -50,7 +50,7 @@
 % Custom commands
 \newcommand{\resumeItem}[2]{
   \item\small{
-    \textbf{#1}{: #2 \vspace{-2pt}}
+    \textbf{#1}{: #2}
   }
 }
 
@@ -61,22 +61,41 @@
 }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-1pt}\item
+  \vspace{-1pt}\item[]
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{#3} & \textit{#4} \\
-    \end{tabular*}\vspace{-5pt}
+    \end{tabular*}\vspace{1pt}
+}
+
+
+\newcommand{\resumeJobHeading}[4]{ % {JobTitle}{Location}{Dates}{Company}
+  \vspace{4pt}\item[]
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{#3} \\
+      \textbf{#4} & \textit{#2} \\
+    \end{tabular*}
+    \vspace{0pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{ % {Project Name}{Date}
+  \vspace{0pt}\item[]
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{#2} \\
+    \end{tabular*}
+    \vspace{0pt}
 }
 
 
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
 
-\renewcommand{\labelitemii}{$\circ$}
+\renewcommand{\labelitemii}{$\bullet$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,topsep=4pt]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[topsep=0pt,itemsep=0pt,parsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
 
 %-----------------------------
 %%%%%%  CV STARTS HERE  %%%%%%
@@ -87,7 +106,7 @@
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{{\LARGE Iyanuoluwa I. Taiwo}} & Email: \href{mailto:iyanuoluwa938@gmail.com}{iyanuoluwa938@gmail.com}\\
   LinkedIn: \href{https://www.linkedin.com/in/iyanuoluwa-taiwo-540823333/} {linkedin.com/in/iyanuoluwa-taiwo-540823333} & Mobile:~~~+234-813-369-3469 \\
-  Github: \href{https://www.github.com/iyanubruce}{~~github.com/iyanubruce}  &   Lekki, Lagos  \\
+  Github: \href{https://www.github.com/iyanubruce}{~~github.com/iyanubruce}  &   Lagos, NG  \\
 \end{tabular*}
 %-----------PROFESSIONAL SUMMARY-----------------
 \section{Professional Summary}
@@ -106,8 +125,7 @@ Technical Support Engineer with 3+ years of experience supporting enterprise fin
 \vspace{-5pt}
 \section{Experience}
 \resumeSubHeadingListStart
-    \resumeSubheading{Backend Developer, \href{https://www.tajahq.com/}{Taja}}{Lagos, NG}
-    {Oct 2024 - Present}{}
+    \resumeJobHeading{Backend Engineer}{Lagos, NG}{Oct 2024 - Present}{Taja}
     \resumeItemListStart
         \resumeItem{Client \& Partner Support}
           {Supported enterprise partners integrating payment and identity-verification APIs, diagnosing connectivity and webhook delivery issues and driving them to first resolution.}
@@ -118,9 +136,7 @@ Technical Support Engineer with 3+ years of experience supporting enterprise fin
         \resumeItem{Escalation \& Documentation}
           {Owned the escalation path from first report to fix, documenting root causes in runbooks that cut repeat tickets and improved support-team resolution speed.}
       \resumeItemListEnd
-\vspace{-5pt}
-    \resumeSubheading{Software Engineer (contract), \href{https://usekite.co/}{Kite}}{Lagos, NG}
-    {Oct 2025 - May 2026}{}
+    \resumeJobHeading{Software Engineer (contract)}{Lagos, NG}{Oct 2025 - May 2026}{Kite}
     \resumeItemListStart
         \resumeItem{API Testing \& QA}
           {Introduced automated regression testing across critical payment flows, verifying APIs and cutting production bug escapes by over 50\% in the first quarter.}
@@ -131,9 +147,7 @@ Technical Support Engineer with 3+ years of experience supporting enterprise fin
         \resumeItem{Support Engineering Collaboration}
           {Worked with support and ops teams to reproduce, diagnose, and ship fixes for production and client-reported issues, maintaining 99.9\% system uptime.}
       \resumeItemListEnd
-\vspace{-5pt}
-    \resumeSubheading{Software Engineer / Technical Support, \href{https://localramp.co/}{LocalRamp}}{Lagos}
-    {May 2023 - Nov 2024}{}
+    \resumeJobHeading{Software Engineer / Technical Support}{Lagos, NG}{May 2023 - Nov 2024}{LocalRamp}
     \resumeItemListStart
         \resumeItem{Client Integration Support}
           {Provided end-to-end technical support for enterprise clients integrating the fiat-to-crypto gateway, troubleshooting API connectivity, webhook delivery, and payment processing issues across 300+ active integrations.}
@@ -150,8 +164,10 @@ Technical Support Engineer with 3+ years of experience supporting enterprise fin
 \vspace{-5pt}
 \section{Projects}
 \resumeSubHeadingListStart
-\resumeSubItem{\href{https://github.com/iyanubruce/Synapse.git}{Synapse} (TypeScript, Express, MongoDB, Redis)}
-  {Architected a multi-tenant payment API integrating 3+ providers via adapter pattern for virtual accounts, KYC, and cross-border payouts. Implemented async processing with RabbitMQ/Bull and secured with JWT, rate limiting, and structured logging.}
+\resumeProjectHeading{Synapse (TypeScript, Express, MongoDB, Redis)}{}
+  \resumeItemListStart
+    \item\small{Architected a multi-tenant payment API integrating 3+ providers via adapter pattern for virtual accounts, KYC, and cross-border payouts. Implemented async processing with RabbitMQ/Bull and secured with JWT, rate limiting, and structured logging.}
+  \resumeItemListEnd
 \resumeSubHeadingListEnd
 
 \vspace{-5pt}
@@ -161,7 +177,9 @@ Technical Support Engineer with 3+ years of experience supporting enterprise fin
     \resumeSubheading
       {Alex Ekwuememe Federal University, Ebonyi State, Abakaliki}{Ebonyi, Nigeria}
       {Bachelor of Science - Computer Science;  GPA: 3.5}{Jan 2021 - Oct 2025}
-      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Operating Systems, Data Structures, Analysis Of Algorithms, Artificial Intelligence, Machine Learning, Networking, Databases}}}
+    \resumeItemListStart
+      \resumeItem{Courses}{Operating Systems, Data Structures, Analysis Of Algorithms, Artificial Intelligence, Machine Learning, Networking, Databases}
+    \resumeItemListEnd
     \resumeSubHeadingListEnd
 
 \end{document}
