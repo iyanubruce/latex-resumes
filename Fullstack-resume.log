@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2026.8.25)  24 SEP 2026 14:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2026.8.25)  24 SEP 2026 16:24
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **Fullstack-resume.tex
 (./Fullstack-resume.tex
@@ -301,9 +300,9 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 10
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 132.
+(Font)              <9> on input line 135.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 132.
+(Font)              <6> on input line 135.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -324,11 +323,11 @@ Package rerunfilecheck Info: File `Fullstack-resume.out' has not changed.
 Here is how much of TeX's memory you used:
  9436 strings out of 475567
  145700 string characters out of 5777889
- 1957187 words of memory out of 5000000
+ 1959187 words of memory out of 5000000
  31485 multiletter control sequences out of 15000+600000
  562965 words of font info for 55 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 75i,11n,79p,335b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,360b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/iyanuoluwa/Library/texlive/2024basic/texmf-var/fonts/pk/ljfour/jknap
 pen/ec/tcrm0900.600pk> </Users/iyanuoluwa/Library/texlive/2024basic/texmf-var/f
 onts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/local/texlive/2024basic/texmf-d
@@ -341,7 +340,7 @@ e/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texl
 ive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
 texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/loc
 al/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Fullstack-resume.pdf (1 page, 137205 bytes).
+Output written on Fullstack-resume.pdf (1 page, 138219 bytes).
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  70 compressed objects within 1 object stream

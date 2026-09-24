@@ -2,7 +2,7 @@ PWD /Users/iyanuoluwa/Documents/latex-resumes
 INPUT /usr/local/texlive/2024basic/texmf.cnf
 INPUT /usr/local/texlive/2024basic/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2024basic/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/iyanuoluwa/Documents/latex-resumes/frontend-resume.tex
+INPUT frontend-resume.tex
 OUTPUT frontend-resume.log
 INPUT /usr/local/texlive/2024basic/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2024basic/texmf-dist/tex/latex/base/article.cls

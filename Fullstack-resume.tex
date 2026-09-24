@@ -70,7 +70,7 @@
 
 
 \newcommand{\resumeJobHeading}[4]{ % {JobTitle}{Location}{Dates}{Company}
-  \vspace{4pt}\item[]
+  \vspace{2pt}\item[]
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} & \textit{#3} \\
       \textbf{#4} & \textit{#2} \\
@@ -80,7 +80,7 @@
 
 
 \newcommand{\resumeProjectHeading}[2]{ % {Project Name}{Date}
-  \vspace{4pt}\item[]
+  \vspace{2pt}\item[]
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} & \textit{#2} \\
     \end{tabular*}
@@ -88,11 +88,11 @@
 }
 
 
-\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-5pt}}
 
 \renewcommand{\labelitemii}{$\bullet$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,topsep=4pt]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,topsep=1pt]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}[topsep=0pt,itemsep=0pt,parsep=0pt]}
 \newcommand{\resumeItemListEnd}{\end{itemize}}
@@ -110,15 +110,18 @@
 \end{tabular*}
 %-----------PROFESSIONAL SUMMARY-----------------
 \section{Professional Summary}
-Full-Stack Software Engineer with 3+ years of experience designing low-latency microservices and mission-critical web applications. Proven in leading small engineering squads, building distributed rate-limiting systems at 10k+ RPS, and delivering complex API integrations for fintech products.
+Full-Stack Software Engineer with 3+ years of experience designing low-latency microservices and mission-critical web applications. Proven in leading small engineering squads, building distributed rate-limiting systems at 10k+ RPS, and delivering complex API integrations and AI-powered analytics for fintech products.
 \vspace{-5pt}
 \section{Skills Summary}
 	\resumeSubHeadingListStart
-	\resumeSubItem{Languages}{~~~~~~Rust, Typescript, JavaScript, SQL, Bash}
-	\resumeSubItem{Frameworks}{~~~~React, Nextjs, TensorFlow, NodeJS, Bun}
-	\resumeSubItem{Tools}{~~~~~~~~~~~~~~Kubernetes, Docker, GIT, PostgreSQL, MySQL}
-	\resumeSubItem{Platforms}{~~~~~~~Linux, Web, Windows, AWS}
-	\resumeSubItem{Soft Skills}{~~~~~~~Leadership, Event Management, Writing, Public Speaking, Time Management}
+	\resumeSubItem{Languages}{~~~~~~Rust, TypeScript, JavaScript, SQL, Bash}
+	\resumeSubItem{Frameworks}{~~~~React, Next.js, Node.js, Bun, Fastify, Express}
+	\resumeSubItem{Data \& APIs}{~~~~~~GraphQL, REST, JWT, Redis, MongoDB, TimescaleDB}
+	\resumeSubItem{Testing}{~~~~~~~~~~~~Jest, Vitest, React Testing Library, Playwright, Cypress}
+	\resumeSubItem{Tools}{~~~~~~~~~~~~~~Kubernetes, Docker, CI/CD, PostgreSQL, MySQL, Sentry, Grafana}
+	\resumeSubItem{Platforms}{~~~~~~~Linux, AWS}
+	\resumeSubItem{AI \& ML}{~~~~~~~~~~~LLM APIs, Prompt Engineering, Natural-Language Interfaces}
+	\resumeSubItem{Soft Skills}{~~~~~~~Leadership, Communication, Problem-Solving, Time Management}
 
 \resumeSubHeadingListEnd
 \vspace{-5pt}
@@ -143,7 +146,7 @@ Full-Stack Software Engineer with 3+ years of experience designing low-latency m
         \resumeItem{Team Leadership}
           {Led a team of 2 engineers, defining the technical roadmap, code-review standards, and quarterly planning process while maintaining 99.9\% system uptime.}
         \resumeItem{Regression Testing}
-          {Introduced automated regression testing across critical payment flows, cutting production bug escapes by over 50\% in the first quarter.}
+          {Introduced automated regression testing (Jest) across critical payment flows, cutting production bug escapes by over 50\% in the first quarter.}
         \resumeItem{Cross-Platform Frontend}
           {Co-developed the cross-platform mobile frontend alongside the backend, implementing state management and real-time sync while translating financial data flows into responsive UI components that improved onboarding and transaction completion.}
       \resumeItemListEnd
@@ -165,9 +168,9 @@ Full-Stack Software Engineer with 3+ years of experience designing low-latency m
 \resumeSubHeadingListStart
 \resumeProjectHeading{RateLimitr (TypeScript, Fastify, Redis, TimescaleDB)}{2024}
   \resumeItemListStart
-    \item\small{Distributed multi-tenant rate-limiting service handling 10,000+ RPS across 50+ nodes using atomic Redis Lua operations. Features real-time analytics via TimescaleDB.}
+    \item\small{Distributed multi-tenant rate-limiting service handling 10,000+ RPS across 50+ nodes using atomic Redis Lua operations, with real-time analytics via TimescaleDB and an LLM-powered assistant that answers tenant questions in plain English.}
   \resumeItemListEnd
-\resumeProjectHeading{Synapse (TypeScript, Express, MongoDB, Redis)}{}
+\resumeProjectHeading{Synapse (TypeScript, Express, MongoDB, Redis)}{2025}
   \resumeItemListStart
     \item\small{Multi-tenant payment API integrating 3+ providers via adapter pattern for virtual accounts, KYC, and cross-border payouts. Secured with JWT, rate limiting, and structured logging.}
   \resumeItemListEnd

@@ -61,7 +61,7 @@
 }
 
 \newcommand{\resumeJobHeading}[4]{ % {JobTitle}{Location}{Dates}{Company}
-\vspace{4pt}
+\vspace{2pt}
 \item[]
 \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
 	\textbf{#1} & \textit{#3} \\
@@ -71,7 +71,7 @@
 }
 
 \newcommand{\resumeProjectHeading}[2]{ % {Project Name}{Date}
-\vspace{4pt}
+\vspace{2pt}
 \item[]
 \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
 	\textbf{#1} & \textit{#2} \\
@@ -80,11 +80,11 @@
 }
 
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}
-\vspace{-4pt}}
+\vspace{-6pt}}
 
 \renewcommand{\labelitemii}{$\bullet$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,topsep=4pt]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,topsep=1pt]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}[topsep=0pt,itemsep=0pt,parsep=0pt]}
 \newcommand{\resumeItemListEnd}{\end{itemize}}
@@ -103,7 +103,7 @@
 	\vspace{0pt}
 	%-----------PROFESSIONAL SUMMARY-----------------
 	\section{Professional Summary}
-	Frontend Engineer with 3 years of experience building high-performance fintech
+	Frontend Engineer with 3 years of experience building high-performance, accessible fintech
 	products with React, Next.js, and TypeScript. Led the frontend of a PCI-DSS-compliant
 	fiat-to-crypto gateway and shipped real-time dashboards and cross-platform mobile
 	interfaces adopted by 300+ enterprise clients. Skilled at turning complex financial
@@ -112,21 +112,20 @@
 	\vspace{0pt}
 	\section{Skills}
 	\resumeSubHeadingListStart
-	\resumeSubItem{Languages}{~~~~~~TypeScript, JavaScript, SQL}
-	\resumeSubItem{Frameworks}{~~~~React, Next.js, Tailwind CSS, Redux, TanStack Query, React Router}
+	\resumeSubItem{Languages}{~~~~~~TypeScript, JavaScript, HTML, CSS, SQL}
+	\resumeSubItem{Frameworks}{~~~~React, Next.js, Tailwind CSS, Redux, TanStack Query, React Router, Vite, State Management}
 	\resumeSubItem{Data \& APIs}{~~GraphQL, REST}
-	\resumeSubItem{Testing}{~~~~~~~Jest, Vitest, React Testing Library}
+	\resumeSubItem{Testing}{~~~~~~~Jest, Vitest, React Testing Library, Playwright, Cypress}
 	\resumeSubItem{Tools}{~~~~~~~~~~~~~~Docker \& Kubernetes, CI/CD, Redis, MongoDB}
-	\resumeSubItem{Practices}{~~~~Agile / Scrum, System Design}
+	\resumeSubItem{Practices}{~~~~Accessibility (WCAG/ARIA), Responsive Design, Performance Optimization, Core Web Vitals, Design Systems, Cross-Browser Testing, Agile / Scrum, System Design}
+	\resumeSubItem{AI \& ML}{~~~~~~~LLM APIs, Natural-Language Interfaces, Prompt Engineering}
 	\resumeSubHeadingListEnd
 	\vspace{0pt}
 	\section{Experience}
 	\resumeSubHeadingListStart
 	\resumeJobHeading{Full Stack Developer}{Lagos, NG}{Oct 2024 - Present}{Taja}
-	\resumeItemListStart \resumeItem{Frontend Collaboration}
-	{Collaborated with the frontend team to define data contracts and API shapes that reduced client-side data fetching by 20\%, improving page load and rendering performance across web and mobile products.}
-	\resumeItem{Frontend Performance}
-	{Worked with UI engineers to optimize data-fetching patterns and API responses, cutting client-side request latency and delivering faster, more responsive user interfaces.}
+	\resumeItemListStart \resumeItem{API \& Performance Optimization}
+	{Collaborated with frontend and UI engineers to define data contracts and optimize data-fetching patterns and API responses, cutting client-side request latency by 20\% and delivering faster, more responsive interfaces across web and mobile products.}
 	\resumeItem{Secure Authentication}
 	{Integrated secure authentication flows and encrypted local storage, ensuring strict data privacy and seamless app-unlock experiences for users.}
 	\resumeItem{Developer Experience} {Built internal tools and monitoring workflows that helped frontend and ops teams ship faster and debug issues in production.}
@@ -143,6 +142,8 @@
 	\resumeJobHeading{Full Stack Software Engineer}{Lagos, NG}{May 2023 - Nov 2024}{LocalRamp}
 	\resumeItemListStart \resumeItem{Fiat-to-Crypto Gateway}
 	{Led the frontend development of a high-volume, secure fiat-to-crypto gateway processing millions in monthly transaction volume, fully compliant with PCI-DSS standards and integrated with KYC/AML user verification workflows.}
+	\resumeItem{Accessibility}
+	{Brought onboarding and payment flows to WCAG 2.2 AA compliance with ARIA labelling and full keyboard navigation, improving usability across assistive technologies.}
 	\resumeItem{Analytics Dashboard} {Built a real-time analytics dashboard for operations teams and an embeddable widget adopted by 300+ enterprise clients, contributing to an 18\% improvement in retention.}
 	\resumeItem{UX Collaboration}
 	{Collaborated with UX designers to improve interface layouts, increasing user adoption by 12\%.}
@@ -156,7 +157,7 @@
 	\resumeSubHeadingListStart
 	\resumeProjectHeading{RateLimitr}{}
 	\resumeItemListStart
-		\item\small{Led the frontend architecture and interface design for an enterprise-grade rate-limiting platform, capable of handling 10,000+ RPS across 50+ nodes and delivering real-time security analytics to over 10,000 concurrent tenants.}
+		\item\small{Led the frontend architecture and interface design for an enterprise-grade rate-limiting platform handling 10,000+ RPS across 50+ nodes, and built an AI-powered natural-language analytics assistant that answers tenant questions about their real-time usage with plain-English insights.}
 	\resumeItemListEnd
 	\resumeProjectHeading{LocalRamp Web Wallet}{}
 	\resumeItemListStart
@@ -164,7 +165,7 @@
 	\resumeItemListEnd
 	\resumeSubHeadingListEnd
 
-	\vspace{-4pt}
+	\vspace{-6pt}
 	%-----------EDUCATION-----------------
 	\section{~~Education}
 	\resumeSubHeadingListStart \resumeSubheading
@@ -175,5 +176,4 @@
 	\resumeItemListEnd
 	\resumeSubHeadingListEnd
 
-	\vspace{10pt}
 \end{document}

@@ -135,9 +135,6 @@ INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
 INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/tfm/public/latex-fonts/lasy9.tfm
 INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm
-INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
-INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/tfm/public/cm/cmti8.tfm
-INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
 INPUT /Users/iyanuoluwa/Library/texlive/2024basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT backend-resume.aux
 INPUT ./backend-resume.out
@@ -147,11 +144,9 @@ INPUT /Users/iyanuoluwa/Library/texlive/2024basic/texmf-var/fonts/pk/ljfour/jkna
 INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb
-INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
 INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
 INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb
 INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
-INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb
