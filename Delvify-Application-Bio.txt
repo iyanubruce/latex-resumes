@@ -1,0 +1,30 @@
+DELVIFY - FULL STACK DEVELOPER APPLICATION: BIO
+
+------------------------------------------------------------
+BIO (short - for the application form field)
+------------------------------------------------------------
+Full Stack Developer with 3+ years building modern microservice
+applications in Agile/Scrum, DevOps environments. I work across React on
+the front end and Node.js, MongoDB, and SQL databases on the back end, and
+I have hands-on experience containerizing services and deploying them on
+AWS and Azure -- including the data and API layers that power AI services.
+Based in Lagos, Nigeria, and comfortable working remotely with teams in
+Singapore and Hong Kong.
+
+------------------------------------------------------------
+BIO (alternative - achievement-focused)
+------------------------------------------------------------
+Full Stack Developer with 3+ years shipping production web applications
+with React, Node.js, MongoDB, and PostgreSQL. I have led development of a
+payments platform handling millions in monthly volume, architected a
+unified API layer that reached 99.9% uptime, and built an AI/LLM-powered
+assistant over live usage data. I work in Agile/Scrum DevOps teams with
+Docker, CI/CD, and AWS/Azure, and I am excited to help build the stack that
+runs Delvify's AI models.
+
+------------------------------------------------------------
+OTHER FORM FIELDS
+------------------------------------------------------------
+Full Name : Iyanuoluwa I. Taiwo
+Email     : iyanuoluwa938@gmail.com
+Phone     : +234-813-369-3469

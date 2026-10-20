@@ -1,0 +1,174 @@
+%------------------------
+% Resume - Front-End Developer (Web3)
+% Author : Iyanuoluwa Taiwo
+%------------------------
+
+\documentclass[a4paper]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames, dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\hypersetup{colorlinks=true, urlcolor=blue, pdfborder={0 0 1},}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.55in}
+\addtolength{\textheight}{1.15in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{ \vspace{-14pt}\scshape\raggedright\large }{}{0em}{}[
+\color{black}
+\titlerule
+\vspace{-8pt}
+]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{ \item\small{ \textbf{#1}: #2 } }
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{-1pt}
+\item[]
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & #2          \\
+	\textit{#3} & \textit{#4} \\
+\end{tabular*}
+\vspace{1pt}
+}
+
+\newcommand{\resumeJobHeading}[4]{ % {JobTitle}{Location}{Dates}{Company}
+\vspace{2pt}
+\item[]
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & \textit{#3} \\
+	\textbf{#4} & \textit{#2} \\
+\end{tabular*}
+\vspace{0pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{ % {Project Name}{Date}
+\vspace{2pt}
+\item[]
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & \textit{#2} \\
+\end{tabular*}
+\vspace{0pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}
+\vspace{-8pt}}
+
+\renewcommand{\labelitemii}{$\bullet$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,topsep=1pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[topsep=0pt,itemsep=0pt,parsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+	%----------HEADING-----------------
+	\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+		\textbf{{\LARGE Iyanuoluwa I. Taiwo}}                                                                                & Email: \href{mailto:iyanuoluwa938@gmail.com}{iyanuoluwa938@gmail.com} \\
+		LinkedIn: \href{https://www.linkedin.com/in/iyanuoluwa-taiwo-540823333/}{linkedin.com/in/iyanuoluwa-taiwo-540823333} & Mobile:~~~+234-813-369-3469                                           \\
+		GitHub: \href{https://www.github.com/iyanubruce}{~~github.com/iyanubruce}                                            & Lagos, NG                                                             \\
+	\end{tabular*}
+
+	%-----------PROFESSIONAL SUMMARY-----------------
+	\section{Professional Summary}
+	Front-End Engineer with 3+ years building TypeScript and React applications,
+	including production Web3 and payments products. Strong command of Next.js,
+	component design, and responsive, performant interfaces, with hands-on
+	experience integrating blockchain wallets, ethers.js, and on-chain/payment
+	flows. Comfortable building and maintaining production-grade SDKs, APIs, and
+	systems at scale in fast-paced, distributed, multi-disciplinary teams.
+
+	\section{Skills}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Languages}{~~~~~~TypeScript, JavaScript, Solidity (working knowledge), SQL, Bash}
+	\resumeSubItem{Frontend}{~~~~~~~React, Next.js, Redux, TanStack Query, React Router, Tailwind CSS, HTML5, CSS3, Responsive \& Mobile-First Design}
+	\resumeSubItem{Web3}{~~~~~~~~~~~ethers.js, wagmi, viem, Wallet \& Provider Integration, On-Chain Reads/Writes, Smart Contract Interaction, Web3 Auth}
+	\resumeSubItem{APIs \& SDKs}{~~~REST APIs, GraphQL, production SDK design, Adapter Patterns, Webhooks, Message Queues, Event-Driven Services}
+	\resumeSubItem{Data}{~~~~~~~~~~~~~~PostgreSQL, MongoDB, Redis, Schema Design, Query Optimization}
+	\resumeSubItem{Workflow}{~~~~~~~~~~Git/GitHub, Code Review, Documentation, Automated Testing (Jest, Vitest, Playwright), CI/CD, Docker, Agile/Remote Teams}
+	\resumeSubHeadingListEnd
+
+	\vspace{4pt}
+	\section{Experience}
+	\resumeSubHeadingListStart
+	\resumeJobHeading{Frontend / Full Stack Developer}{Lagos, NG}{Oct 2024 - Present}{Taja}
+	\resumeItemListStart
+	\resumeItem{Web3 / Payments Frontend}
+	{Built TypeScript and Next.js interfaces for blockchain and payment flows, integrating wallet connections, ethers.js, and on-chain/off-chain data into intuitive, mobile-responsive experiences.}
+	\resumeItem{Component System \& UX}
+	{Built a reusable Tailwind component system and refined interactions with product, prioritizing intuitive, performant, pixel-consistent UI across screens.}
+	\resumeItem{APIs \& SDKs}
+	{Designed and consumed REST/GraphQL APIs and provider-agnostic SDK adapters with automatic failover, integrating third-party services reliably.}
+	\resumeItem{Quality \& Documentation}
+	{Wrote tests, reviewed code, and documented components and integration decisions to keep standards high and onboarding fast.}
+	\resumeItemListEnd
+
+	\resumeJobHeading{Frontend Developer (Contract)}{Lagos, NG}{Oct 2025 - May 2026}{Kite}
+	\resumeItemListStart
+	\resumeItem{Cross-Platform Interface}
+	{Co-developed a cross-platform frontend with state management and real-time synchronization against a unified backend API.}
+	\resumeItem{Responsive \& Accessible UI}
+	{Translated complex financial data flows into responsive, accessible components, improving onboarding and transaction completion.}
+	\resumeItem{Performance \& Reliability}
+	{Introduced automated regression testing across critical flows, cutting production bug escapes by over 50\% and maintaining 99.9\% uptime.}
+	\resumeItemListEnd
+
+	\resumeJobHeading{Full Stack Software Engineer}{Lagos, NG}{May 2023 - Nov 2024}{LocalRamp}
+	\resumeItemListStart
+	\resumeItem{Fiat-to-Crypto Product}
+	{Led frontend development of a fiat-to-crypto gateway handling millions in monthly volume, integrating wallet and payment rails into a production product used by 300+ clients.}
+	\resumeItem{Analytics Dashboard}
+	{Built a real-time analytics dashboard and embeddable widget adopted by 300+ enterprise clients, improving retention by 18\%.}
+	\resumeItem{Standards \& Performance}
+	{Brought flows to WCAG 2.2 AA compliance, improved layouts with UX designers, and authored API standards that cut onboarding time by 40\%.}
+	\resumeItemListEnd
+	\resumeSubHeadingListEnd
+
+	%-----------PROJECTS-----------------
+	\section{Projects}
+	\resumeSubHeadingListStart
+	\resumeProjectHeading{Synapse (TypeScript, Express, MongoDB, Redis)}{2025}
+	\resumeItemListStart
+	\item\small{Multi-tenant payments API integrating 3+ providers via an adapter pattern for virtual accounts, KYC, and cross-border payouts. Secured with JWT, rate limiting, and structured logging.}
+	\resumeItemListEnd
+	\resumeProjectHeading{RateLimitr (React, TypeScript, Tailwind, Fastify, Redis)}{2024}
+	\resumeItemListStart
+	\item\small{Full-stack platform with a responsive React UI handling 10,000+ RPS across 50+ nodes, including real-time analytics and an AI natural-language assistant over live usage data.}
+	\resumeItemListEnd
+	\resumeSubHeadingListEnd
+
+	%-----------EDUCATION-----------------
+	\section{Education}
+	\resumeSubHeadingListStart
+	\resumeSubheading
+	{Alex Ekwueme Federal University, Ebonyi State, Abakaliki}{Ebonyi, Nigeria}
+	{Bachelor of Science - Computer Science; GPA: 3.5}{}
+	\resumeSubHeadingListEnd
+\end{document}

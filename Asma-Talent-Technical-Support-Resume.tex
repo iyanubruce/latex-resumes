@@ -1,0 +1,177 @@
+%------------------------
+% Resume - Technical Customer Support Specialist (AI & APIs)
+% Author : Iyanuoluwa Taiwo
+%------------------------
+
+\documentclass[a4paper, 20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames, dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\hypersetup{colorlinks=true, urlcolor=blue, pdfborder={0 0 1},}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1.15in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{ \vspace{-10pt}\scshape\raggedright\large }{}{0em}{}[
+\color{black}
+\titlerule
+\vspace{-6pt}
+]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{ \item\small{ \textbf{#1}{: #2} } }
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{-1pt}
+\item[]
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & #2          \\
+	\textit{#3} & \textit{#4} \\
+\end{tabular*}
+\vspace{1pt}
+}
+
+\newcommand{\resumeJobHeading}[4]{ % {JobTitle}{Location}{Dates}{Company}
+\vspace{4pt}
+\item[]
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & \textit{#3} \\
+	\textbf{#4} & \textit{#2} \\
+\end{tabular*}
+\vspace{0pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{ % {Project Name}{Date}
+\vspace{0pt}
+\item[]
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & \textit{#2} \\
+\end{tabular*}
+\vspace{0pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}
+\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\bullet$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,topsep=2pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[topsep=0pt,itemsep=0pt,parsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+	%----------HEADING-----------------
+	\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+		\textbf{{\LARGE Iyanuoluwa I. Taiwo}}                                                                                & Email: \href{mailto:iyanuoluwa938@gmail.com}{iyanuoluwa938@gmail.com} \\
+		LinkedIn: \href{https://www.linkedin.com/in/iyanuoluwa-taiwo-540823333/}{linkedin.com/in/iyanuoluwa-taiwo-540823333} & Mobile:~~~+234-813-369-3469                                           \\
+		Github: \href{https://www.github.com/iyanubruce}{~~github.com/iyanubruce}                                            & Lagos, NG                                                             \\
+	\end{tabular*}
+
+	%-----------PROFESSIONAL SUMMARY-----------------
+	\section{Professional Summary}
+	Technical Support / Support Engineer with 3+ years troubleshooting REST APIs,
+	integrations, and production issues for SaaS/B2B customers. Skilled in
+	cloud-log investigation, Python and SQL diagnostics, telephony integrations,
+	and partnering with engineering on complex, customer-blocking problems.
+	Hands-on supporting AI/LLM-powered features, including a natural-language
+	assistant over live product data.
+
+	\vspace{-5pt}
+	\section{Skills Summary}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Support Engineering}{API \& Integration Troubleshooting, Production Log Investigation, Incident Triage, Escalation, Root-Cause Analysis, SLA Management}
+	\resumeSubItem{APIs \& Integrations}{REST APIs, Webhooks, Twilio, Postman, cURL, OpenAPI/Swagger, Authentication (OAuth/JWT), Third-Party Integrations, Payment Providers}
+	\resumeSubItem{Telephony}{~~~~~~~~~~~~~Twilio API, Voice \& Messaging Integrations, Webhook Delivery Debugging, Call/SMS Delivery Troubleshooting}
+	\resumeSubItem{Diagnostics}{~~~~~~~~Python, SQL, Bash, Log Analysis, Error Tracing, Structured Logging, Performance Investigation, Reproduction Steps}
+	\resumeSubItem{Cloud \& Monitoring}{GCP Cloud Logging, AWS, Sentry, Grafana, Datadog, PagerDuty, Docker, Linux, CI/CD}
+	\resumeSubItem{AI \& Product}{~~~~~~~LLM-Powered Features, Natural-Language Assistants, Prompt/Response Debugging, Usage Analytics \& Reporting}
+	\resumeSubHeadingListEnd
+
+	\vspace{-5pt}
+	\section{Experience}
+	\resumeSubHeadingListStart
+	\resumeJobHeading{Backend Engineer}{Lagos, NG}{Oct 2024 - Present}{Taja}
+	\resumeItemListStart
+	\resumeItem{API \& Integration Support}
+	{Supported enterprise customers and partners integrating payment and identity-verification APIs, diagnosing request failures, authentication errors, and webhook delivery issues to first resolution.}
+	\resumeItem{Telephony Integration Support}
+	{Supported Twilio voice and messaging integrations, troubleshooting call and SMS delivery failures, webhook callbacks, and configuration issues reported by customers.}
+	\resumeItem{Production Issue Investigation}
+	{Investigated production issues using application and cloud logs, error tracing, and monitoring dashboards, reducing mean time to detect and resolve customer-facing incidents.}
+	\resumeItem{AI/LLM Feature Support}
+	{Supported LLM-powered natural-language features including an AI assistant over tenant usage data, debugging retrieval and response quality issues reported by customers.}
+	\resumeItem{Engineering Collaboration \& SQL}
+	{Escalated complex cross-system issues to engineering and used SQL to reproduce reported problems against production data, documenting root causes in runbooks that reduced repeat tickets.}
+	\resumeItemListEnd
+
+	\resumeJobHeading{Software Engineer (Contract)}{Lagos, NG}{Oct 2025 - May 2026}{Kite}
+	\resumeItemListStart
+	\resumeItem{Integration Troubleshooting}
+	{Architected and supported a unified API layer across multiple payment providers, debugging integration failures and turning them into fixes and clear customer-facing explanations.}
+	\resumeItem{Production Reliability}
+	{Investigated and resolved production issues across front end, back end, and integrations, reducing repeat incidents by over 50\%.}
+	\resumeItem{Customer-Facing Communication}
+	{Reproduced issues with customers and operations teams and explained resolutions in plain language, maintaining 99.9\% uptime and authoring support documentation that reduced repeat contact volume.}
+	\resumeItemListEnd
+
+	\resumeJobHeading{Technical Support / Software Engineer}{Lagos, NG}{May 2023 - Nov 2024}{LocalRamp}
+	\resumeItemListStart
+	\resumeItem{Customer Technical Support}
+	{Provided end-to-end technical support for 300+ enterprise customers integrating a payments gateway, troubleshooting API connectivity, webhook delivery, and transaction failures.}
+	\resumeItem{Triage \& Escalation}
+{Ran a structured triage and escalation workflow, prioritizing issues by severity and cutting average resolution time from 48 hours to under 12 hours.}
+	\resumeItem{GCP Log Troubleshooting}
+	{Investigated production issues using GCP Cloud Logging and monitoring dashboards, tracing errors across services and confirming fixes against live traffic.}
+	\resumeItem{Data \& Knowledge Base}
+	{Used SQL and scripting to trace transaction data and confirm fixes, and authored API documentation and troubleshooting guides that cut customer onboarding time by 40\% and recurring ticket volume by 25\%.}
+	\resumeItemListEnd
+	\resumeSubHeadingListEnd
+
+	\vspace{-5pt}
+	%-----------PROJECTS-----------------
+	\section{Projects}
+	\resumeSubHeadingListStart
+	\resumeProjectHeading{RateLimitr (TypeScript, Fastify, Redis, TimescaleDB)}{2024}
+	\resumeItemListStart
+	\item\small{Multi-tenant rate-limiting service with an LLM-powered natural-language assistant over live usage data, plus real-time analytics dashboards.}
+	\resumeItemListEnd
+	\resumeSubHeadingListEnd
+
+	\vspace{-5pt}
+	%-----------EDUCATION-----------------
+	\section{Education}
+	\resumeSubHeadingListStart
+	\resumeSubheading
+	{Alex Ekwueme Federal University, Ebonyi State, Abakaliki}{Ebonyi, Nigeria}
+	{Bachelor of Science - Computer Science; GPA: 3.5}{}
+	\resumeSubHeadingListEnd
+\end{document}

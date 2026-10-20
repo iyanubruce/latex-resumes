@@ -1,0 +1,182 @@
+%------------------------
+% Resume - Full-Stack Engineer
+% Author : Iyanuoluwa Taiwo
+%------------------------
+
+\documentclass[a4paper]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames, dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\hypersetup{colorlinks=true, urlcolor=blue, pdfborder={0 0 1},}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.55in}
+\addtolength{\textheight}{1.15in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{ \vspace{-14pt}\scshape\raggedright\large }{}{0em}{}[
+\color{black}
+\titlerule
+\vspace{-8pt}
+]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{ \item\small{ \textbf{#1}: #2 } }
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{-1pt}
+\item[]
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & #2          \\
+	\textit{#3} & \textit{#4} \\
+\end{tabular*}
+\vspace{1pt}
+}
+
+\newcommand{\resumeJobHeading}[4]{ % {JobTitle}{Location}{Dates}{Company}
+\vspace{2pt}
+\item[]
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & \textit{#3} \\
+	\textbf{#4} & \textit{#2} \\
+\end{tabular*}
+\vspace{0pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{ % {Project Name}{Date}
+\vspace{2pt}
+\item[]
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & \textit{#2} \\
+\end{tabular*}
+\vspace{0pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}
+\vspace{-8pt}}
+
+\renewcommand{\labelitemii}{$\bullet$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,topsep=1pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[topsep=0pt,itemsep=0pt,parsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+	%----------HEADING-----------------
+	\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+		\textbf{{\LARGE Iyanuoluwa I. Taiwo}}                                                                                & Email: \href{mailto:iyanuoluwa938@gmail.com}{iyanuoluwa938@gmail.com} \\
+		LinkedIn: \href{https://www.linkedin.com/in/iyanuoluwa-taiwo-540823333/}{linkedin.com/in/iyanuoluwa-taiwo-540823333} & Mobile:~~~+234-813-369-3469                                           \\
+		GitHub: \href{https://www.github.com/iyanubruce}{~~github.com/iyanubruce}                                            & Lagos, NG                                                             \\
+	\end{tabular*}
+
+	%-----------PROFESSIONAL SUMMARY-----------------
+	\section{Professional Summary}
+	Full-Stack Engineer with 3+ years building and operating end-to-end web
+	applications, from responsive React front ends to containerized backend
+	services. Experienced in microservices and event-driven architecture, Docker
+	and Kubernetes deployments, CI/CD, and production observability. Comfortable
+	owning features from concept to production, joining on-call incident response,
+	and improving performance and reliability in fast-paced, team-oriented
+	environments. Background in payments and digital commerce systems.
+
+	\section{Skills}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Languages}{~~~~~~TypeScript, JavaScript, Go, Python, SQL, Bash}
+	\resumeSubItem{Frontend}{~~~~~~~React, Next.js, Redux, TanStack Query, Tailwind CSS, HTML5, CSS3, Responsive Design, Accessibility}
+	\resumeSubItem{Backend}{~~~~~~~~Go, Node.js, Express.js, Fastify, Microservices, Event-Driven Architecture, REST APIs, GraphQL}
+	\resumeSubItem{Infrastructure}{~~Docker, Kubernetes, CI/CD, AWS, GCP, Azure, Linux, Git/GitHub}
+	\resumeSubItem{Data \& Messaging}{PostgreSQL, MySQL, ClickHouse, MongoDB, Redis, Kafka, Message Queues}
+	\resumeSubItem{Observability}{~~~~~Prometheus, Grafana, Datadog, Sentry, Log Analysis, Distributed Tracing, Performance Optimization}
+	\resumeSubHeadingListEnd
+
+	\vspace{4pt}
+	\section{Experience}
+	\resumeSubHeadingListStart
+	\resumeJobHeading{Full Stack Developer}{Lagos, NG}{Oct 2024 - Present}{Taja}
+	\resumeItemListStart
+	\resumeItem{Full-Stack Feature Delivery}
+	{Built and shipped features end to end across React front ends and Go/Node.js microservices, owning work from concept through production and post-release support.}
+	\resumeItem{Microservices \& Events}
+	{Developed event-driven services with message queues and provider-agnostic integrations, adding automatic failover so live workloads stay reliable when a dependency degrades.}
+	\resumeItem{Containers \& CI/CD}
+	{Containerized services with Docker, deployed to Kubernetes, and maintained CI/CD pipelines and automated tests for quality, repeatable releases.}
+	\resumeItem{Observability \& On-Call}
+	{Monitored and debugged production code with distributed logging, metrics, and alerting (Grafana, Sentry), participating in incident response and cutting mean time to resolution.}
+	\resumeItem{Performance \& Code Review}
+	{Optimized SQL queries, indexes, and service paths to cut average request latency by 20\%, and contributed to code reviews and technical discussions across teams.}
+	\resumeItemListEnd
+
+	\resumeJobHeading{Software Engineer (Contract)}{Lagos, NG}{Oct 2025 - May 2026}{Kite}
+	\resumeItemListStart
+	\resumeItem{Architecture \& APIs}
+	{Architected a unified API layer consolidating multiple payment providers into one interface used by several client applications, with event-based communication between services.}
+	\resumeItem{Reliability \& Performance}
+{Improved reliability to 99.9\% uptime and reduced repeat production incidents by over 50\% through systematic investigation and automated regression checks.}
+	\resumeItem{Cross-Functional Delivery}
+	{Collaborated with product, design, and QA to deliver features end to end, and documented architecture decisions and operational runbooks for the team.}
+	\resumeItemListEnd
+
+	\resumeJobHeading{Software Engineer}{Lagos, NG}{May 2023 - Nov 2024}{LocalRamp}
+	\resumeItemListStart
+	\resumeItem{Payments Platform}
+	{Led end-to-end development of a payments and digital commerce platform handling millions in monthly volume, from architecture through deployment and support.}
+	\resumeItem{Containerization \& Cloud}
+	{Deployed containerized services on AWS and GCP with Docker and CI/CD, using GCP Cloud Logging and monitoring dashboards to debug production behavior.}
+	\resumeItem{Database \& Optimization}
+	{Designed relational schemas and tuned MySQL/PostgreSQL queries, improving response times by 20\% on high-traffic workloads.}
+	\resumeItem{Standards \& Process}
+	{Reduced CI/CD pipeline duration by 20\% and authored API design standards that cut new engineer onboarding time by 40\%.}
+	\resumeItemListEnd
+	\resumeSubHeadingListEnd
+
+	%-----------PROJECTS-----------------
+	\section{Projects}
+	\resumeSubHeadingListStart
+	\resumeProjectHeading{RateLimitr (TypeScript, Fastify, Redis, TimescaleDB)}{2024}
+	\resumeItemListStart
+	\item\small{Distributed multi-tenant rate-limiting service handling 10,000+ RPS across 50+ nodes using atomic Redis Lua operations, with real-time analytics and an LLM-powered assistant over live usage data.}
+	\resumeItemListEnd
+	\resumeProjectHeading{Synapse (TypeScript, Express, MongoDB, Redis)}{2025}
+	\resumeItemListStart
+	\item\small{Multi-tenant payments API integrating 3+ providers via an adapter pattern for virtual accounts, KYC, and cross-border payouts. Secured with JWT, rate limiting, and structured logging.}
+	\resumeItemListEnd
+	\resumeSubHeadingListEnd
+
+	%-----------EDUCATION-----------------
+	\section{Education}
+	\resumeSubHeadingListStart
+	\resumeSubheading
+	{Alex Ekwueme Federal University, Ebonyi State, Abakaliki}{Ebonyi, Nigeria}
+	{Bachelor of Science - Computer Science; GPA: 3.5}{}
+	\resumeItemListStart
+	\resumeItem{Courses}{Operating Systems, Data Structures, Algorithms, Artificial Intelligence, Machine Learning, Networking, Databases}
+	\resumeItemListEnd
+	\resumeSubHeadingListEnd
+\end{document}

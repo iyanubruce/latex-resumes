@@ -1,5 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1790101977.70206 "cover-letter-technical-support.tex" "cover-letter-technical-support.pdf" "cover-letter-technical-support" 1790101978.53022 0
+["pdflatex"] 1791308512.02544 "/Users/iyanuoluwa/Documents/latex-resumes/cover-letter-technical-support.tex" "cover-letter-technical-support.pdf" "cover-letter-technical-support" 1791308512.60162 0
+  "/Users/iyanuoluwa/Documents/latex-resumes/cover-letter-technical-support.tex" 1791308511.47228 3357 7b9d7f5b16e64be07c5b9061e111c029 ""
   "/Users/iyanuoluwa/Library/texlive/2024basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1790086827.30235 79343 f5e3a19efef13a79b2a39a1a413a5ff9 ""
   "/Users/iyanuoluwa/Library/texmf/tex/latex/enumitem/enumitem.sty" 1738874546 52272 63d293bc0d496619edb57585740861a2 ""
   "/Users/iyanuoluwa/Library/texmf/tex/latex/fullpage/fullpage.sty" 1790086965.70147 2789 05b418f78b224ec872f5b11081138605 ""
@@ -64,9 +65,9 @@
   "/usr/local/texlive/2024basic/texmf-dist/web2c/texmf.cnf" 1708706663 41649 5d6ae549fbbcb850a863f69aa41f3d10 ""
   "/usr/local/texlive/2024basic/texmf-var/web2c/pdftex/pdflatex.fmt" 1787669286 7536451 49ce852956701dc35b87c7a7555e8afb ""
   "/usr/local/texlive/2024basic/texmf.cnf" 1710011638 628 8b896f7d9d41b43f4346b9091e52171f ""
-  "cover-letter-technical-support.aux" 1790101978.35623 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
-  "cover-letter-technical-support.out" 1790101978.31778 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "cover-letter-technical-support.tex" 1790101973.7683 3092 7ef370ccd0a1142e3bec0499f5bfadff ""
+  "cover-letter-technical-support.aux" 1791308512.52342 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
+  "cover-letter-technical-support.out" 1791308512.499 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "cover-letter-technical-support.tex" 1791308511.47228 3357 7b9d7f5b16e64be07c5b9061e111c029 ""
   (generated)
   "cover-letter-technical-support.aux"
   "cover-letter-technical-support.log"

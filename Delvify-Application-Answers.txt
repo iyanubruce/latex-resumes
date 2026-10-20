@@ -1,0 +1,76 @@
+DELVIFY - FULL STACK DEVELOPER APPLICATION
+Application form fields: Full Name, Email, Phone, Bio
+
+------------------------------------------------------------
+Full Name
+------------------------------------------------------------
+Iyanuoluwa I. Taiwo
+
+------------------------------------------------------------
+Email
+------------------------------------------------------------
+iyanuoluwa938@gmail.com
+
+------------------------------------------------------------
+Phone
+------------------------------------------------------------
++234-813-369-3469
+
+------------------------------------------------------------
+Bio
+------------------------------------------------------------
+Full Stack Developer with 3+ years building and operating modern
+microservice applications in Agile/Scrum, DevOps environments. I work
+across React on the front end and Node.js, MongoDB, and SQL databases on
+the back end, and I have hands-on experience containerizing services and
+deploying them on AWS and Azure.
+
+I am comfortable building the stack that AI models run on. At Taja I ship
+features end to end across React front ends and Node.js microservices,
+using event-driven services and message queues, containerizing with
+Docker, and deploying to AWS and Azure with CI/CD. I design and tune
+schemas across MongoDB, PostgreSQL, and Redis, and I have built an
+AI/LLM-powered assistant over live usage data, so I understand the data
+and API layers that AI and NLP services depend on.
+
+At LocalRamp I led end-to-end development of a payments platform handling
+millions in monthly volume, from schema and API design through deployment
+and support, and reduced CI/CD pipeline duration by 20%. At Kite I
+architected a unified API layer behind a single interface used by several
+client applications, improving reliability to 99.9% uptime.
+
+I enjoy Agile, collaborative teams that take ownership and care about code
+quality, and I am eager to keep growing in a DevOps environment. I am
+based in Lagos, Nigeria, and comfortable working remotely with teams in
+Singapore and Hong Kong.
+
+------------------------------------------------------------
+COVER NOTE (optional - paste into application if a message field exists)
+------------------------------------------------------------
+
+Dear Hiring Manager,
+
+I am applying for the Full Stack Developer (Frontend/Backend) role. With
+3+ years building modern microservice applications in Agile/Scrum, DevOps
+environments, I work across React and Node.js and am comfortable
+containerizing services and deploying to AWS and Azure -- the same stack
+pattern Delvify uses to host its AI models.
+
+At Taja I ship features end to end across React front ends and Node.js
+microservices, with event-driven services, message queues, Docker, and
+CI/CD on AWS and Azure. I design and optimize schemas across MongoDB,
+PostgreSQL, and Redis, and I have built an AI/LLM-powered assistant over
+live usage data. At LocalRamp I led development of a payments platform
+handling millions in monthly volume and cut CI/CD pipeline duration by
+20%; at Kite I architected a unified API layer behind one interface used
+by several client applications, reaching 99.9% uptime.
+
+My stack covers Node.js, ReactJS, MongoDB, MySQL/PostgreSQL, GraphQL,
+microservices, containers, Git, and AWS/Azure. I would welcome the
+opportunity to discuss how I can contribute to the team building the stack
+that runs your AI models.
+
+Sincerely,
+Iyanuoluwa I. Taiwo
++234-813-369-3469 | iyanuoluwa938@gmail.com
+github.com/iyanubruce

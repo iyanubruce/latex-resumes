@@ -1,0 +1,180 @@
+%------------------------
+% Resume - FDE Full-stack Product Engineer
+% Author : Iyanuoluwa Taiwo
+%------------------------
+
+\documentclass[a4paper]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames, dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\hypersetup{colorlinks=true, urlcolor=blue, pdfborder={0 0 1},}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.55in}
+\addtolength{\textheight}{1.15in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{ \vspace{-14pt}\scshape\raggedright\large }{}{0em}{}[
+\color{black}
+\titlerule
+\vspace{-8pt}
+]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{ \item\small{ \textbf{#1}: #2 } }
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{-1pt}
+\item[]
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & #2          \\
+	\textit{#3} & \textit{#4} \\
+\end{tabular*}
+\vspace{1pt}
+}
+
+\newcommand{\resumeJobHeading}[4]{ % {JobTitle}{Location}{Dates}{Company}
+\vspace{2pt}
+\item[]
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & \textit{#3} \\
+	\textbf{#4} & \textit{#2} \\
+\end{tabular*}
+\vspace{0pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{ % {Project Name}{Date}
+\vspace{2pt}
+\item[]
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & \textit{#2} \\
+\end{tabular*}
+\vspace{0pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}
+\vspace{-8pt}}
+
+\renewcommand{\labelitemii}{$\bullet$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,topsep=1pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[topsep=0pt,itemsep=0pt,parsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+	%----------HEADING-----------------
+	\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+		\textbf{{\LARGE Iyanuoluwa I. Taiwo}}                                                                                & Email: \href{mailto:iyanuoluwa938@gmail.com}{iyanuoluwa938@gmail.com} \\
+		LinkedIn: \href{https://www.linkedin.com/in/iyanuoluwa-taiwo-540823333/}{linkedin.com/in/iyanuoluwa-taiwo-540823333} & Mobile:~~~+234-813-369-3469                                           \\
+		GitHub: \href{https://www.github.com/iyanubruce}{~~github.com/iyanubruce}                                            & Lagos, NG                                                             \\
+	\end{tabular*}
+
+	%-----------PROFESSIONAL SUMMARY-----------------
+	\section{Professional Summary}
+	Full-Stack Product Engineer with 3+ years of experience building and owning
+	enterprise B2B web applications end to end. Strong in TypeScript, React/Next.js,
+	Node.js/Express, and SQL, with hands-on experience delivering data-heavy
+	dashboards, admin workflows, self-service surfaces, and API integrations. Known
+	for translating complex platform capabilities into usable interfaces, maintaining
+	quality through automated testing and accessibility, and collaborating closely
+	with product, design, and client stakeholders.
+
+	\section{Skills}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Languages}{~~~~~~TypeScript, JavaScript, SQL, HTML, CSS}
+	\resumeSubItem{Frontend}{~~~~~~~React, Next.js, Tailwind CSS, Redux, TanStack Query, Vite, Design Systems, Component Libraries, Accessibility (WCAG/ARIA)}
+	\resumeSubItem{Backend \& APIs}{~Node.js, Express.js, REST API Design, GraphQL, Authentication, Webhooks, Service Integration}
+	\resumeSubItem{Data \& Cloud}{~~~PostgreSQL, MySQL, MongoDB, Redis, Schema Design, Query Optimization, AWS, Docker, Kubernetes, CI/CD}
+	\resumeSubItem{AI \& Quality}{~~~~~LLM APIs, Prompt Engineering, Structured Evaluations, AI-Assisted Development (GitHub Copilot, Cursor); Jest, Vitest, React Testing Library, Playwright, Cypress, Sentry}
+	\resumeSubItem{Collaboration}{~~~Product/Design Partnership, Client-Facing Delivery, Technical Documentation, Cross-Team Communication, Agile/Scrum}
+	\resumeSubHeadingListEnd
+
+	\vspace{4pt}
+	\section{Experience}
+	\resumeSubHeadingListStart
+	\resumeJobHeading{Full Stack Developer}{Lagos, NG}{Oct 2024 - Present}{Taja}
+	\resumeItemListStart
+	\resumeItem{End-to-End Product Delivery}
+	{Built and shipped full-stack features across React/Next.js interfaces and Node.js/Express APIs, owning work from customer problem through production deployment.}
+	\resumeItem{API \& Service Integration}
+	{Designed data contracts and integrated platform APIs, optimizing data-fetching patterns and response structures to cut client-side latency by 20\%.}
+	\resumeItem{Secure Authentication}
+	{Integrated secure authentication flows and encrypted local storage, ensuring strict data privacy and seamless app-unlock experiences for users.}
+	\resumeItem{Quality \& Production Support}
+	{Built internal tools and monitoring workflows that helped frontend and operations teams ship faster, debug production issues, and maintain reliability.}
+	\resumeItemListEnd
+
+	\resumeJobHeading{Frontend Developer (Contract)}{Lagos, NG}{Oct 2025 - May 2026}{Kite}
+	\resumeItemListStart
+	\resumeItem{Cross-Platform Frontend}
+	{Co-developed the cross-platform mobile frontend, implementing state management and real-time synchronization with a unified backend API.}
+	\resumeItem{Complex UI Workflows}
+	{Translated complex financial data flows into responsive, accessible UI components, improving onboarding and transaction completion experiences.}
+	\resumeItem{Quality \& Testing}
+	{Introduced automated regression testing across critical flows, cutting production bug escapes by over 50\%; verified fixes in demo environments.}
+	\resumeItem{Client Collaboration \& Documentation}
+	{Worked with support and operations teams to reproduce and resolve production issues; authored troubleshooting guides and developer documentation.}
+	\resumeItemListEnd
+
+	\resumeJobHeading{Full Stack Software Engineer}{Lagos, NG}{May 2023 - Nov 2024}{LocalRamp}
+	\resumeItemListStart
+	\resumeItem{Enterprise B2B Platform}
+	{Led frontend development of a high-volume, PCI-DSS-compliant payments platform used by 300+ enterprise clients, integrating KYC/AML verification workflows.}
+	\resumeItem{Admin \& Analytics Experiences}
+	{Built a real-time analytics dashboard for operations teams and an embeddable self-service widget adopted by 300+ enterprise clients, contributing to an 18\% improvement in retention.}
+	\resumeItem{Full-Stack \& API Ownership}
+	{Designed and maintained RESTful APIs, integrated payment and identity providers with automatic failover, and optimized SQL queries and schemas to improve response times by 20\%.}
+	\resumeItem{Accessibility \& Design Collaboration}
+	{Brought onboarding and payment flows to WCAG 2.2 AA compliance with ARIA labelling and keyboard navigation; partnered with UX designers to improve layouts, increasing adoption by 12\%.}
+	\resumeItem{Client-Facing Delivery}
+	{Partnered with enterprise clients and internal teams to scope configuration needs, validate workflows, and translate feedback into product improvements.}
+	\resumeItemListEnd
+	\resumeSubHeadingListEnd
+
+	%-----------PROJECTS-----------------
+	\section{Projects}
+	\resumeSubHeadingListStart
+	\resumeProjectHeading{RateLimitr (TypeScript, React, Fastify, Redis, TimescaleDB)}{2024}
+	\resumeItemListStart
+	\item\small{Led frontend architecture for a full-stack rate-limiting platform handling 10,000+ RPS across 50+ nodes, and built an AI-powered natural-language analytics assistant. Designed prompt workflows and evaluated responses against representative tenant queries to improve answer accuracy.}
+	\resumeItemListEnd
+	\resumeSubHeadingListEnd
+
+	%-----------EDUCATION-----------------
+	\section{Education}
+	\resumeSubHeadingListStart
+	\resumeSubheading
+	{Alex Ekwueme Federal University, Ebonyi State, Abakaliki}{Ebonyi, Nigeria}
+	{Bachelor of Science - Computer Science; GPA: 3.5}{}
+	\resumeItemListStart
+	\resumeItem{Courses}{Operating Systems, Data Structures, Algorithms, Artificial Intelligence, Machine Learning, Networking, Databases}
+	\resumeItemListEnd
+	\resumeSubHeadingListEnd
+\end{document}

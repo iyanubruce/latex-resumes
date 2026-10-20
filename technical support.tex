@@ -5,21 +5,17 @@
 % License : MIT
 %------------------------
 
-\documentclass[a4paper,20pt]{article}
+\documentclass[a4paper, 20pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
 \usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
+\usepackage[usenames, dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
 \usepackage[pdftex]{hyperref}
-\hypersetup{
-  colorlinks=true,
-  urlcolor=blue,
-  pdfborder={0 0 1},
-}
+\hypersetup{colorlinks=true, urlcolor=blue, pdfborder={0 0 1},}
 \usepackage{fancyhdr}
 
 \pagestyle{fancy}
@@ -42,53 +38,49 @@
 \setlength{\tabcolsep}{0in}
 
 % Sections formatting
-\titleformat{\section}{
-  \vspace{-10pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+\titleformat{\section}{ \vspace{-10pt}\scshape\raggedright\large }{}{0em}{}[
+\color{black}
+\titlerule
+\vspace{-6pt}
+]
 
 %-------------------------
 % Custom commands
-\newcommand{\resumeItem}[2]{
-  \item\small{
-    \textbf{#1}{: #2}
-  }
-}
+\newcommand{\resumeItem}[2]{ \item\small{ \textbf{#1}{: #2} } }
 
-\newcommand{\resumeItemWithoutTitle}[1]{
-  \item\small{
-    {\vspace{-2pt}}
-  }
-}
+\newcommand{\resumeItemWithoutTitle}[1]{ \item\small{ {\vspace{-2pt}} } }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-1pt}\item[]
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{#3} & \textit{#4} \\
-    \end{tabular*}\vspace{1pt}
+\vspace{-1pt}
+\item[]
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & #2          \\
+	\textit{#3} & \textit{#4} \\
+\end{tabular*}
+\vspace{1pt}
 }
-
 
 \newcommand{\resumeJobHeading}[4]{ % {JobTitle}{Location}{Dates}{Company}
-  \vspace{4pt}\item[]
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & \textit{#3} \\
-      \textbf{#4} & \textit{#2} \\
-    \end{tabular*}
-    \vspace{0pt}
+\vspace{4pt}
+\item[]
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & \textit{#3} \\
+	\textbf{#4} & \textit{#2} \\
+\end{tabular*}
+\vspace{0pt}
 }
-
 
 \newcommand{\resumeProjectHeading}[2]{ % {Project Name}{Date}
-  \vspace{0pt}\item[]
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & \textit{#2} \\
-    \end{tabular*}
-    \vspace{0pt}
+\vspace{0pt}
+\item[]
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & \textit{#2} \\
+\end{tabular*}
+\vspace{0pt}
 }
 
-
-\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}
+\vspace{-3pt}}
 
 \renewcommand{\labelitemii}{$\bullet$}
 
@@ -101,85 +93,63 @@
 %%%%%%  CV STARTS HERE  %%%%%%
 
 \begin{document}
-
-%----------HEADING-----------------
-\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{{\LARGE Iyanuoluwa I. Taiwo}} & Email: \href{mailto:iyanuoluwa938@gmail.com}{iyanuoluwa938@gmail.com}\\
-  LinkedIn: \href{https://www.linkedin.com/in/iyanuoluwa-taiwo-540823333/} {linkedin.com/in/iyanuoluwa-taiwo-540823333} & Mobile:~~~+234-813-369-3469 \\
-  Github: \href{https://www.github.com/iyanubruce}{~~github.com/iyanubruce}  &   Lagos, NG  \\
-\end{tabular*}
-%-----------PROFESSIONAL SUMMARY-----------------
-\section{Professional Summary}
-Technical Support Engineer with 3+ years of experience supporting enterprise fintech clients, troubleshooting API and payment issues, and driving integrations to resolution. Skilled in diagnosing API/webhook failures, triaging and escalating incidents by severity, and delivering developer documentation and runbooks that reduce ticket volume and onboarding time.
-\vspace{-5pt}
-\section{Skills Summary}
-	\resumeSubHeadingListStart
-	\resumeSubItem{Support \& Tools}{Ticketing (Zendesk/Intercom/Jira), Monitoring \& Alerting (Sentry, Grafana, Datadog, PagerDuty), API Testing (Postman, cURL, Webhooks, OpenAPI/Swagger), Knowledge Base \& Documentation (Confluence, Notion, Runbooks)}
+	%----------HEADING-----------------
+	\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+		\textbf{{\LARGE Iyanuoluwa I. Taiwo}}                                                                                & Email: \href{mailto:iyanuoluwa938@gmail.com}{iyanuoluwa938@gmail.com} \\
+		LinkedIn: \href{https://www.linkedin.com/in/iyanuoluwa-taiwo-540823333/}{linkedin.com/in/iyanuoluwa-taiwo-540823333} & Mobile:~~~+234-813-369-3469                                           \\
+		Github: \href{https://www.github.com/iyanubruce}{~~github.com/iyanubruce}                                            & Lagos, NG                                                             \\
+	\end{tabular*}
+	%-----------PROFESSIONAL SUMMARY-----------------
+	\section{Professional Summary}
+	Technical Support Engineer with 3+ years of experience supporting enterprise
+	fintech clients, troubleshooting API and payment issues, and driving
+	integrations to resolution. Skilled in diagnosing API/webhook failures,
+	triaging and escalating incidents by severity, and delivering developer documentation
+	and runbooks that reduce ticket volume and onboarding time.
+	\vspace{-5pt}
+	\section{Skills Summary}
+	\resumeSubHeadingListStart \resumeSubItem{Support \& Tools}{Ticketing (Zendesk/Intercom/Jira), Monitoring \& Alerting (Sentry, Grafana, Datadog, PagerDuty), API Testing (Postman, cURL, Webhooks, OpenAPI/Swagger), Knowledge Base \& Documentation (Confluence, Notion, Runbooks)}
 	\resumeSubItem{Languages}{~~~~~~TypeScript, JavaScript, SQL, Python, Bash}
-	\resumeSubItem{Frameworks}{~~~~Node.js, Express, React}
-	\resumeSubItem{Data}{~~~~~~~~~~~~~~~PostgreSQL, MongoDB (querying and debugging transaction data)}
-	\resumeSubItem{Platforms}{~~~~~~~Linux, AWS, Docker}
-	\resumeSubItem{Soft Skills}{~~~~~~~Communication, Problem-Solving, Leadership, Time Management}
+	\resumeSubItem{Frameworks}{~~~~Node.js, Express, React} \resumeSubItem{Data}{~~~~~~~~~~~~~~~PostgreSQL, MongoDB (querying and debugging transaction data)}
+	\resumeSubItem{Platforms}{~~~~~~~Linux, AWS, Docker} \resumeSubItem{Soft Skills}{~~~~~~~Communication, Problem-Solving, Leadership, Time Management}
 
-\resumeSubHeadingListEnd
-\vspace{-5pt}
-\section{Experience}
-\resumeSubHeadingListStart
-    \resumeJobHeading{Backend Engineer}{Lagos, NG}{Oct 2024 - Present}{Taja}
-    \resumeItemListStart
-        \resumeItem{Client \& Partner Support}
-          {Supported enterprise partners integrating payment and identity-verification APIs, diagnosing connectivity and webhook delivery issues and driving them to first resolution.}
-        \resumeItem{API Diagnostics \& Failure Handling}
-          {Identified failing payment and identity providers and routed requests to backup providers via automatic failover, minimizing downtime across live integrations.}
-        \resumeItem{Monitoring \& Incident Response}
-          {Maintained production monitoring, alerting, and incident triage workflows (Sentry, Grafana, PagerDuty), reducing mean time to detect and resolve client-facing incidents.}
-        \resumeItem{Escalation \& Documentation}
-          {Owned the escalation path from first report to fix, documenting root causes in runbooks that cut repeat tickets and improved support-team resolution speed.}
-      \resumeItemListEnd
-    \resumeJobHeading{Software Engineer (contract)}{Lagos, NG}{Oct 2025 - May 2026}{Kite}
-    \resumeItemListStart
-        \resumeItem{API Testing \& QA}
-          {Introduced automated regression testing across critical payment flows, verifying APIs and cutting production bug escapes by over 50\% in the first quarter.}
-        \resumeItem{Client-Facing Troubleshooting}
-          {Debugged cross-platform app issues reported by users, investigating state management and real-time synchronization failures against the unified backend API.}
-        \resumeItem{Technical Documentation}
-          {Developed developer-focused documentation and troubleshooting guides that helped client and ops teams onboard faster and resolve issues in production.}
-        \resumeItem{Support Engineering Collaboration}
-          {Worked with support and ops teams to reproduce, diagnose, and ship fixes for production and client-reported issues, maintaining 99.9\% system uptime.}
-      \resumeItemListEnd
-    \resumeJobHeading{Software Engineer / Technical Support}{Lagos, NG}{May 2023 - Nov 2024}{LocalRamp}
-    \resumeItemListStart
-        \resumeItem{Client Integration Support}
-          {Provided end-to-end technical support for enterprise clients integrating the fiat-to-crypto gateway, troubleshooting API connectivity, webhook delivery, and payment processing issues across 300+ active integrations.}
-        \resumeItem{Technical Documentation}
-          {Authored developer-friendly API documentation, integration guides, and troubleshooting runbooks that reduced client onboarding time by 40\% and lowered recurring support ticket volume by 25\%.}
-        \resumeItem{Issue Triage \& Escalation}
-          {Established a structured issue triage and escalation workflow, categorizing and prioritizing client-reported bugs by severity, reducing average resolution time from 48 hours to under 12 hours.}
-        \resumeItem{Client Retention}
-          {Built a real-time analytics dashboard and embeddable widget adopted by 300+ enterprise clients, contributing to an 18\% improvement in client retention through proactive issue identification.}
-      \resumeItemListEnd
-\resumeSubHeadingListEnd
+	\resumeSubHeadingListEnd
+	\vspace{-5pt}
+	\section{Experience}
+	\resumeSubHeadingListStart \resumeJobHeading{Backend Engineer}{Lagos, NG}{Oct 2024 - Present}{Taja}
+	\resumeItemListStart \resumeItem{Client \& Partner Support}
+	{Supported enterprise partners integrating payment and identity-verification APIs, diagnosing connectivity and webhook delivery issues and driving them to first resolution.}
+	\resumeItem{API Diagnostics \& Failure Handling} {Identified failing payment and identity providers and routed requests to backup providers via automatic failover, minimizing downtime across live integrations.}
+	\resumeItem{Monitoring \& Incident Response}
+	{Maintained production monitoring, alerting, and incident triage workflows (Sentry, Grafana, PagerDuty), reducing mean time to detect and resolve client-facing incidents.}
+	\resumeItem{Escalation \& Documentation} {Owned the escalation path from first report to fix, documenting root causes in runbooks that cut repeat tickets and improved support-team resolution speed.}
+	\resumeItemListEnd \resumeJobHeading{Software Engineer (contract)}{Lagos, NG}{Oct 2025 - May 2026}{Kite}
+	\resumeItemListStart \resumeItem{API Testing \& QA}
+	{Introduced automated regression testing across critical payment flows, verifying APIs and cutting production bug escapes by over 50\% in the first quarter.}
+	\resumeItem{Client-Facing Troubleshooting} {Debugged cross-platform app issues reported by users, investigating state management and real-time synchronization failures against the unified backend API.}
+	\resumeItem{Technical Documentation}
+	{Developed developer-focused documentation and troubleshooting guides that helped client and ops teams onboard faster and resolve issues in production.}
+	\resumeItem{Support Engineering Collaboration} {Worked with support and ops teams to reproduce, diagnose, and ship fixes for production and client-reported issues, maintaining 99.9\% system uptime.}
+	\resumeItemListEnd \resumeJobHeading{Software Engineer / Technical Support}{Lagos, NG}{May 2023 - Nov 2024}{LocalRamp}
+	\resumeItemListStart \resumeItem{Client Integration Support}
+	{Provided end-to-end technical support for enterprise clients integrating the fiat-to-crypto gateway, troubleshooting API connectivity, webhook delivery, and payment processing issues across 300+ active integrations.}
+	\resumeItem{Technical Documentation} {Authored developer-friendly API documentation, integration guides, and troubleshooting runbooks that reduced client onboarding time by 40\% and lowered recurring support ticket volume by 25\%.}
+	\resumeItem{Issue Triage \& Escalation}
+	{Established a structured issue triage and escalation workflow, categorizing and prioritizing client-reported bugs by severity, reducing average resolution time from 48 hours to under 12 hours.}
+	\resumeItem{Client Retention} {Built a real-time analytics dashboard and embeddable widget adopted by 300+ enterprise clients, contributing to an 18\% improvement in client retention through proactive issue identification.}
+	\resumeItemListEnd \resumeSubHeadingListEnd
 
-%-----------PROJECTS-----------------
-\vspace{-5pt}
-\section{Projects}
-\resumeSubHeadingListStart
-\resumeProjectHeading{Synapse (TypeScript, Express, MongoDB, Redis)}{2025}
-  \resumeItemListStart
-    \item\small{Architected a multi-tenant payment API integrating 3+ providers via adapter pattern for virtual accounts, KYC, and cross-border payouts. Implemented async processing with RabbitMQ/Bull and secured with JWT, rate limiting, and structured logging.}
-  \resumeItemListEnd
-\resumeSubHeadingListEnd
+	%-----------PROJECTS-----------------
+	\vspace{-5pt}
+	\section{Projects}
+	\resumeSubHeadingListStart \resumeProjectHeading{Synapse (TypeScript, Express, MongoDB, Redis)}{2025}
+	\resumeItemListStart \item\small{Architected a multi-tenant payment API integrating 3+ providers via adapter pattern for virtual accounts, KYC, and cross-border payouts. Implemented async processing with RabbitMQ/Bull and secured with JWT, rate limiting, and structured logging.}
+	\resumeItemListEnd \resumeSubHeadingListEnd
 
-\vspace{-5pt}
-%-----------EDUCATION-----------------
-\section{~~Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Alex Ekwuememe Federal University, Ebonyi State, Abakaliki}{Ebonyi, Nigeria}
-      {Bachelor of Science - Computer Science;  GPA: 3.5}{Jan 2021 - Oct 2025}
-    \resumeItemListStart
-      \resumeItem{Courses}{Operating Systems, Data Structures, Analysis Of Algorithms, Artificial Intelligence, Machine Learning, Networking, Databases}
-    \resumeItemListEnd
-    \resumeSubHeadingListEnd
-
+	\vspace{-5pt}
+	%-----------EDUCATION-----------------
+	\section{~~Education}
+	\resumeSubHeadingListStart \resumeSubheading {Alex Ekwuememe Federal University, Ebonyi State, Abakaliki}{Ebonyi, Nigeria}
+	{Bachelor of Science - Computer Science; GPA: 3.5}{} \resumeItemListStart \resumeItem{Courses}{Operating Systems, Data Structures, Analysis Of Algorithms, Artificial Intelligence, Machine Learning, Networking, Databases}
+	\resumeItemListEnd \resumeSubHeadingListEnd
 \end{document}

@@ -1,0 +1,181 @@
+%------------------------
+% Resume - Associate, Technology Support
+% Author : Iyanuoluwa Taiwo
+%------------------------
+
+\documentclass[a4paper, 20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames, dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\hypersetup{colorlinks=true, urlcolor=blue, pdfborder={0 0 1},}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{ \vspace{-10pt}\scshape\raggedright\large }{}{0em}{}[
+\color{black}
+\titlerule
+\vspace{-6pt}
+]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{ \item\small{ \textbf{#1}{: #2} } }
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{-1pt}
+\item[]
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & #2          \\
+	\textit{#3} & \textit{#4} \\
+\end{tabular*}
+\vspace{1pt}
+}
+
+\newcommand{\resumeJobHeading}[4]{ % {JobTitle}{Location}{Dates}{Company}
+\vspace{4pt}
+\item[]
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & \textit{#3} \\
+	\textbf{#4} & \textit{#2} \\
+\end{tabular*}
+\vspace{0pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{ % {Project Name}{Date}
+\vspace{0pt}
+\item[]
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & \textit{#2} \\
+\end{tabular*}
+\vspace{0pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}
+\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\bullet$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,topsep=4pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[topsep=0pt,itemsep=0pt,parsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+	%----------HEADING-----------------
+	\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+		\textbf{{\LARGE Iyanuoluwa I. Taiwo}}                                                                                & Email: \href{mailto:iyanuoluwa938@gmail.com}{iyanuoluwa938@gmail.com} \\
+		LinkedIn: \href{https://www.linkedin.com/in/iyanuoluwa-taiwo-540823333/}{linkedin.com/in/iyanuoluwa-taiwo-540823333} & Mobile:~~~+234-813-369-3469                                           \\
+		Github: \href{https://www.github.com/iyanubruce}{~~github.com/iyanubruce}                                            & Lagos, NG                                                             \\
+	\end{tabular*}
+
+	%-----------PROFESSIONAL SUMMARY-----------------
+	\section{Professional Summary}
+	Technology Support professional with 3+ years of experience in first-line
+	troubleshooting, Service Desk triage, and enterprise user support across
+	Windows, macOS, and cloud productivity platforms. Skilled in diagnosing
+	access, connectivity, and account issues; walking non-technical users through
+	resolutions with patience and clarity; and documenting fixes into reusable
+	knowledge base articles. Strong DNS, DHCP, TCP/IP, SMTP, and Group Policy
+	fundamentals, with a track record of meeting SLAs and following security and
+	governance processes.
+
+	\vspace{-5pt}
+	\section{Skills Summary}
+	\resumeSubHeadingListStart
+	\resumeSubItem{IT Support}{~~~~~~Service Desk Ticketing, Incident Triage, SLA Management, Escalation, Root-Cause Analysis, Knowledge Base Authoring}
+	\resumeSubItem{Identity \& Cloud}{Microsoft 365, Entra ID / Azure AD, Exchange Online, User \& License Provisioning, Group Policy, MFA, SSO, Google Workspace}
+	\resumeSubItem{Networking}{~~~~~~~TCP/IP, DNS, DHCP, SMTP, VPN, LAN/WAN, Firewalls, Print Management, Wi-Fi Troubleshooting}
+	\resumeSubItem{Platforms}{~~~~~~~~Windows 10/11, macOS, Linux, iOS, Android, Remote Desktop Tools}
+	\resumeSubItem{Tools \& Scripting}{Zendesk, Jira, Confluence, Active Directory, PowerShell, Bash, SQL, Postman, Sentry, Grafana}
+	\resumeSubItem{Soft Skills}{~~~~~~~~~Customer Service, Written Communication, Documentation, Collaboration, Tenacious Problem-Solving}
+	\resumeSubHeadingListEnd
+
+	\vspace{-5pt}
+	\section{Experience}
+	\resumeSubHeadingListStart
+	\resumeJobHeading{Backend Engineer}{Lagos, NG}{Oct 2024 - Present}{Taja}
+	\resumeItemListStart
+	\resumeItem{End-User \& Partner Support}
+	{Supported enterprise partners and internal users, diagnosing account access, connectivity, and webhook delivery issues and driving them to first-contact resolution.}
+	\resumeItem{Triage \& Escalation}
+	{Owned the escalation path from first report to fix, prioritizing by severity and business impact and keeping users informed within agreed SLAs.}
+	\resumeItem{Monitoring \& Incident Response}
+	{Maintained monitoring, alerting, and incident triage workflows (Sentry, Grafana, PagerDuty), reducing mean time to detect and resolve user-facing incidents.}
+	\resumeItem{Knowledge Base \& Documentation}
+{Authored troubleshooting runbooks and internal documentation that cut repeat tickets and improved resolution speed.}
+	\resumeItemListEnd
+
+	\resumeJobHeading{Software Engineer (Contract)}{Lagos, NG}{Oct 2025 - May 2026}{Kite}
+	\resumeItemListStart
+	\resumeItem{User-Facing Troubleshooting}
+	{Debugged cross-platform application issues reported by users, investigating access, synchronization, and account configuration problems against backend services.}
+	\resumeItem{Technical Documentation}
+	{Developed end-user troubleshooting guides and developer documentation that helped client and operations teams self-serve common requests.}
+	\resumeItem{Support Collaboration}
+	{Partnered with support and operations teams to reproduce, diagnose, and ship fixes for production and client-reported issues, maintaining 99.9\% uptime.}
+	\resumeItem{Process Improvement}
+	{Introduced automated regression checks across critical workflows, reducing repeat incidents by over 50\% in the first quarter.}
+	\resumeItemListEnd
+
+	\resumeJobHeading{Technical Support / Software Engineer}{Lagos, NG}{May 2023 - Nov 2024}{LocalRamp}
+	\resumeItemListStart
+	\resumeItem{Service Desk \& First-Line Investigation}
+	{Provided frontline support for 300+ enterprise accounts, investigating reported computing, account access, and integration issues and resolving or escalating as appropriate.}
+	\resumeItem{Account \& Access Administration}
+{Created and managed user accounts, credential resets, and access requests across internal systems, ensuring adherence to security and governance processes.}
+	\resumeItem{Customer Service \& SLAs}
+	{Responded to a broad range of service requests promptly and professionally, building strong relationships with internal and external customers while meeting SLAs.}
+	\resumeItem{Issue Triage \& Escalation}
+	{Established a structured triage workflow prioritizing issues by severity, cutting average resolution time from 48 hours to under 12 hours.}
+	\resumeItem{Knowledge Base Contribution}
+	{Authored self-service guides and troubleshooting articles that reduced client onboarding time by 40\% and recurring ticket volume by 25\%.}
+	\resumeItemListEnd
+	\resumeSubHeadingListEnd
+
+	\vspace{-5pt}
+	%-----------EDUCATION-----------------
+	\section{Education}
+	\resumeSubHeadingListStart
+	\resumeSubheading
+	{Alex Ekwueme Federal University, Ebonyi State, Abakaliki}{Ebonyi, Nigeria}
+	{Bachelor of Science - Computer Science; GPA: 3.5}{}
+	\resumeItemListStart
+	\resumeItem{Courses}{Operating Systems, Data Structures, Algorithms, Artificial Intelligence, Machine Learning, Networking, Databases}
+	\resumeItemListEnd
+	\resumeSubHeadingListEnd
+
+	\vspace{-5pt}
+	%-----------CERTIFICATIONS-----------------
+	\section{Certifications}
+	\resumeSubHeadingListStart
+	\resumeSubItem{HackerRank}{Software Engineer \textbullet{} Oct 2026 \textbullet{} Credential ID: AE666AC16F1C \textbullet{} \href{https://www.hackerrank.com/certificates/e4382188f72a}{verify}}
+	\resumeSubHeadingListEnd
+\end{document}

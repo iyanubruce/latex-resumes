@@ -1,0 +1,180 @@
+%------------------------
+% Resume - Frontend Developer
+% Author : Iyanuoluwa Taiwo
+%------------------------
+
+\documentclass[a4paper]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames, dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\hypersetup{colorlinks=true, urlcolor=blue, pdfborder={0 0 1},}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.55in}
+\addtolength{\textheight}{1.15in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{ \vspace{-14pt}\scshape\raggedright\large }{}{0em}{}[
+\color{black}
+\titlerule
+\vspace{-8pt}
+]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{ \item\small{ \textbf{#1}: #2 } }
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{-1pt}
+\item[]
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & #2          \\
+	\textit{#3} & \textit{#4} \\
+\end{tabular*}
+\vspace{1pt}
+}
+
+\newcommand{\resumeJobHeading}[4]{ % {JobTitle}{Location}{Dates}{Company}
+\vspace{2pt}
+\item[]
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & \textit{#3} \\
+	\textbf{#4} & \textit{#2} \\
+\end{tabular*}
+\vspace{0pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{ % {Project Name}{Date}
+\vspace{2pt}
+\item[]
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & \textit{#2} \\
+\end{tabular*}
+\vspace{0pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}
+\vspace{-8pt}}
+
+\renewcommand{\labelitemii}{$\bullet$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,topsep=1pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[topsep=0pt,itemsep=0pt,parsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+	%----------HEADING-----------------
+	\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+		\textbf{{\LARGE Iyanuoluwa I. Taiwo}}                                                                                & Email: \href{mailto:iyanuoluwa938@gmail.com}{iyanuoluwa938@gmail.com} \\
+		LinkedIn: \href{https://www.linkedin.com/in/iyanuoluwa-taiwo-540823333/}{linkedin.com/in/iyanuoluwa-taiwo-540823333} & Mobile:~~~+234-813-369-3469                                           \\
+		GitHub: \href{https://www.github.com/iyanubruce}{~~github.com/iyanubruce}                                            & Lagos, NG                                                             \\
+	\end{tabular*}
+
+	%-----------PROFESSIONAL SUMMARY-----------------
+	\section{Professional Summary}
+	Frontend-focused Full-Stack Developer with 3+ years of experience shipping
+	React and TypeScript interfaces for high-traffic B2B platforms. Strong in
+	component design, state management, REST API integration, Tailwind CSS,
+	responsive layouts, accessibility, and performance. Comfortable owning features
+	from issue to reviewed pull request, debugging across the stack, and improving
+	codebases through refactoring and code review. Eager to grow into PHP/Laravel
+	and Astro while contributing strong frontend fundamentals to Pine Hosting.
+
+	\section{Skills}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Languages}{~~~~~~TypeScript, JavaScript, HTML, CSS, SQL}
+	\resumeSubItem{Frontend}{~~~~~~~React, Next.js (SSR/SSG), Tailwind CSS, Redux, TanStack Query, React Router, Responsive Design, Accessibility (WCAG/ARIA), Design Systems}
+	\resumeSubItem{Backend \& APIs}{~Node.js, Express.js, REST APIs, GraphQL, Authentication, Webhooks, Service Integration}
+	\resumeSubItem{Testing \& Debugging}{Jest, Vitest, React Testing Library, Playwright, Cypress, Browser DevTools, Network Inspection, Sentry}
+	\resumeSubItem{Workflow}{~~~~~~~~~Git/GitHub, Branches \& Pull Requests, Code Review, CI/CD, Docker, AWS, VS Code, GitHub Copilot, Cursor, Linear/Jira}
+	\resumeSubItem{Performance}{~~~~~~Core Web Vitals, Performance Optimization, Semantic HTML, Cross-Browser Testing, SEO-Aware Frontend Development}
+	\resumeSubHeadingListEnd
+
+	\vspace{4pt}
+	\section{Experience}
+	\resumeSubHeadingListStart
+	\resumeJobHeading{Full Stack Developer}{Lagos, NG}{Oct 2024 - Present}{Taja}
+	\resumeItemListStart
+	\resumeItem{React \& TypeScript Feature Development}
+	{Built and maintained customer-facing features in React/Next.js and TypeScript, including reusable components, hooks, and state management for data-heavy workflows.}
+	\resumeItem{REST API Integration}
+	{Integrated REST APIs and designed data contracts, optimizing data-fetching patterns and response structures to cut client-side latency by 20\%.}
+	\resumeItem{Code Quality \& Review}
+	{Wrote unit and integration tests, participated in code reviews, and built monitoring workflows that helped the team ship faster and debug production issues.}
+	\resumeItem{Product Collaboration}
+	{Partnered with product managers and designers to scope features, validate workflows with users, and iterate on feedback across the stack.}
+	\resumeItemListEnd
+
+	\resumeJobHeading{Frontend Developer (Contract)}{Lagos, NG}{Oct 2025 - May 2026}{Kite}
+	\resumeItemListStart
+	\resumeItem{Cross-Platform React Frontend}
+	{Co-developed a cross-platform frontend, implementing state management and real-time synchronization with a unified backend API.}
+	\resumeItem{Responsive \& Accessible UI}
+	{Translated complex financial data flows into responsive, accessible components, improving onboarding and transaction completion experiences.}
+	\resumeItem{Testing \& Bug Fixes}
+	{Introduced automated regression testing across critical flows, cutting production bug escapes by over 50\%; investigated and fixed issues across the stack.}
+	\resumeItem{Async Collaboration \& Documentation}
+	{Worked with support and operations teams to reproduce issues and authored troubleshooting guides and developer documentation.}
+	\resumeItemListEnd
+
+	\resumeJobHeading{Full Stack Software Engineer}{Lagos, NG}{May 2023 - Nov 2024}{LocalRamp}
+	\resumeItemListStart
+	\resumeItem{High-Traffic B2B Frontend}
+	{Led frontend development of a high-volume, PCI-DSS-compliant payments platform used by 300+ enterprise clients.}
+	\resumeItem{Analytics Dashboard \& Widget}
+	{Built a real-time analytics dashboard and an embeddable widget adopted by 300+ enterprise clients, contributing to an 18\% improvement in retention.}
+	\resumeItem{Accessibility \& UX}
+	{Brought onboarding and payment flows to WCAG 2.2 AA compliance with ARIA labelling and keyboard navigation; partnered with UX designers to improve layouts, increasing adoption by 12\%.}
+	\resumeItem{Performance \& Modernization}
+	{Optimized SQL queries and schemas, improving response times by 20\%, and reduced CI/CD pipeline duration by 20\% by streamlining build and deployment stages.}
+	\resumeItem{Code Review \& Standards}
+	{Authored API design standards and contributed to code reviews and onboarding materials that cut new engineer onboarding time by 40\%.}
+	\resumeItemListEnd
+	\resumeSubHeadingListEnd
+
+	%-----------PROJECTS-----------------
+	\section{Projects}
+	\resumeSubHeadingListStart
+	\resumeProjectHeading{RateLimitr (TypeScript, React, Fastify, PostgreSQL/TimescaleDB, Redis)}{2024}
+	\resumeItemListStart
+	\item\small{Led frontend architecture for a full-stack rate-limiting platform handling 10,000+ RPS across 50+ nodes, built with React, Fastify, PostgreSQL/TimescaleDB, and Redis. Added real-time analytics and an AI-powered natural-language assistant for tenant usage insights.}
+	\resumeItemListEnd
+	\resumeSubHeadingListEnd
+
+	%-----------EDUCATION-----------------
+	\section{Education}
+	\resumeSubHeadingListStart
+	\resumeSubheading
+	{Alex Ekwueme Federal University, Ebonyi State, Abakaliki}{Ebonyi, Nigeria}
+	{Bachelor of Science - Computer Science; GPA: 3.5}{}
+	\resumeItemListStart
+	\resumeItem{Courses}{Operating Systems, Data Structures, Algorithms, Artificial Intelligence, Machine Learning, Networking, Databases}
+	\resumeItemListEnd
+	\resumeSubHeadingListEnd
+\end{document}
