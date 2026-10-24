@@ -5,21 +5,17 @@
 % License : MIT
 %------------------------
 
-\documentclass[a4paper,20pt]{article}
+\documentclass[a4paper, 20pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
 \usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
+\usepackage[usenames, dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
 \usepackage[pdftex]{hyperref}
-\hypersetup{
-  colorlinks=true,
-  urlcolor=blue,
-  pdfborder={0 0 1},
-}
+\hypersetup{colorlinks=true, urlcolor=blue, pdfborder={0 0 1},}
 \usepackage{fancyhdr}
 
 \pagestyle{fancy}
@@ -42,53 +38,49 @@
 \setlength{\tabcolsep}{0in}
 
 % Sections formatting
-\titleformat{\section}{
-  \vspace{-14pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+\titleformat{\section}{ \vspace{-14pt}\scshape\raggedright\large }{}{0em}{}[
+\color{black}
+\titlerule
+\vspace{-8pt}
+]
 
 %-------------------------
 % Custom commands
-\newcommand{\resumeItem}[2]{
-  \item\small{
-    \textbf{#1}{: #2}
-  }
-}
+\newcommand{\resumeItem}[2]{ \item\small{ \textbf{#1}{: #2} } }
 
-\newcommand{\resumeItemWithoutTitle}[1]{
-  \item\small{
-    {\vspace{-2pt}}
-  }
-}
+\newcommand{\resumeItemWithoutTitle}[1]{ \item\small{ {\vspace{-2pt}} } }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-1pt}\item[]
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{#3} & \textit{#4} \\
-    \end{tabular*}\vspace{1pt}
+\vspace{-1pt}
+\item[]
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & #2          \\
+	\textit{#3} & \textit{#4} \\
+\end{tabular*}
+\vspace{1pt}
 }
-
 
 \newcommand{\resumeJobHeading}[4]{ % {JobTitle}{Location}{Dates}{Company}
-  \vspace{2pt}\item[]
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & \textit{#3} \\
-      \textbf{#4} & \textit{#2} \\
-    \end{tabular*}
-    \vspace{0pt}
+\vspace{2pt}
+\item[]
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & \textit{#3} \\
+	\textbf{#4} & \textit{#2} \\
+\end{tabular*}
+\vspace{0pt}
 }
-
 
 \newcommand{\resumeProjectHeading}[2]{ % {Project Name}{Date}
-  \vspace{2pt}\item[]
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & \textit{#2} \\
-    \end{tabular*}
-    \vspace{0pt}
+\vspace{2pt}
+\item[]
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & \textit{#2} \\
+\end{tabular*}
+\vspace{0pt}
 }
 
-
-\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-8pt}}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}
+\vspace{-8pt}}
 
 \renewcommand{\labelitemii}{$\bullet$}
 
@@ -101,97 +93,81 @@
 %%%%%%  CV STARTS HERE  %%%%%%
 
 \begin{document}
+	%----------HEADING-----------------
+	\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+		\textbf{{\LARGE Iyanuoluwa I. Taiwo}}                                                                                & Email: \href{mailto:iyanuoluwa938@gmail.com}{iyanuoluwa938@gmail.com} \\
+		LinkedIn: \href{https://www.linkedin.com/in/iyanuoluwa-taiwo-540823333/}{linkedin.com/in/iyanuoluwa-taiwo-540823333} & Mobile:~~~+234-813-369-3469                                           \\
+		Github: \href{https://www.github.com/iyanubruce}{~~github.com/iyanubruce}                                            & Lagos, NG                                                             \\
+	\end{tabular*}
+	\vspace{3pt}
 
-%----------HEADING-----------------
-\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{{\LARGE Iyanuoluwa I. Taiwo}} & Email: \href{mailto:iyanuoluwa938@gmail.com}{iyanuoluwa938@gmail.com}\\
-  LinkedIn: \href{https://www.linkedin.com/in/iyanuoluwa-taiwo-540823333/} {linkedin.com/in/iyanuoluwa-taiwo-540823333} & Mobile:~~~+234-813-369-3469 \\
-  Github: \href{https://www.github.com/iyanubruce}{~~github.com/iyanubruce}  &   Lagos, NG  \\
-\end{tabular*}
+	%-----------PROFESSIONAL SUMMARY-----------------
+	\section{Professional Summary}
+	Backend Engineer with 5+ years of experience designing and building scalable,
+	low-latency microservices and distributed systems. Expertise in API architecture,
+	database optimization, event-driven processing, observability, and AI-powered analytics
+	for fintech applications.
 
-%-----------PROFESSIONAL SUMMARY-----------------
-\section{Professional Summary}
-Backend Engineer with 3+ years of experience designing and building scalable, low-latency microservices and distributed systems. Expertise in API architecture, database optimization, event-driven processing, observability, and AI-powered analytics for fintech applications.
-
-\vspace{-5pt}
-\section{Skills}
-	\resumeSubHeadingListStart
-	\resumeSubItem{Languages}{~~~~~~Rust, TypeScript, JavaScript, SQL}
+	\vspace{5pt}
+	\section{Skills}
+	\resumeSubHeadingListStart \resumeSubItem{Languages}{~~~~~~Rust, TypeScript, JavaScript, SQL}
 	\resumeSubItem{Frameworks}{~~~~Fastify, Node.js, Express, Redis, RabbitMQ, GraphQL}
-	\resumeSubItem{Databases}{~~~~~~PostgreSQL, MongoDB, TimescaleDB}
-	\resumeSubItem{Infrastructure}{~~~~Kubernetes, Docker, CI/CD, AWS, Serverless, Linux}
-	\resumeSubItem{Testing}{~~~~~~~~~~~~Jest, Vitest}
-	\resumeSubItem{Tools}{~~~~~~~~~~~~~~Git, Sentry, Winston, Bull Queues, Grafana, Prometheus}
+	\resumeSubItem{Databases}{~~~~~~PostgreSQL, MongoDB, TimescaleDB} \resumeSubItem{Infrastructure}{~~~~Kubernetes, Docker, CI/CD, AWS, Serverless, Linux}
+	\resumeSubItem{Testing}{~~~~~~~~~~~~Jest, Vitest} \resumeSubItem{Tools}{~~~~~~~~~~~~~~Git, Sentry, Winston, Bull Queues, Grafana, Prometheus}
 	\resumeSubItem{AI \& ML}{~~~~~~~~~~~LLM APIs, Prompt Engineering, Natural-Language Interfaces, Agentic Workflows}
 	\resumeSubItem{Developer Tooling}{~~SDK \& CLI Development, OpenAPI/Swagger, API Design}
 
-\resumeSubHeadingListEnd
-\vspace{-5pt}
-\section{Experience}
-  \resumeSubHeadingListStart
-    \resumeJobHeading{Backend Engineer}{Lagos, NG}{Oct 2024 - Present}{Taja}
-    \resumeItemListStart
-        \resumeItem{Abuse Detection}
-          {Implemented device fingerprinting and abuse-detection controls to identify impersonation attempts, reducing account takeover incidents by 30\%.}
-        \resumeItem{Query \& Database Design}
-          {Optimized SQL queries, database indexes, and schema design to cut average request latency by 20\% while improving data integrity across core fintech features.}
-        \resumeItem{Third-Party Integrations}
-          {Integrated external APIs for payments and identity verification, building provider-agnostic abstraction with automatic failover that routes requests to backup providers when any single service fails, ensuring uninterrupted uptime.}
-        \resumeItem{Admin Dashboard}
-          {Developed an admin dashboard for internal operations workflows, helping increase organizational productivity by 50\% through faster task handling and reporting.}
-      \resumeItemListEnd
-    \resumeJobHeading{Software Engineer (contract)}{Lagos, NG}{Oct 2025 - May 2026}{Kite}
-    \resumeItemListStart
-        \resumeItem{Unified API Layer}
-          {Architected a unified API layer around major payment providers, consolidating complex financial rails into a single high-performance interface used by multiple client applications, instrumented with centralized logging, monitoring, and end-to-end observability.}
-        \resumeItem{Team Leadership}
-          {Led a team of 2 engineers, defining the technical roadmap, code-review standards, and quarterly planning process while maintaining 99.9\% system uptime.}
-        \resumeItem{Regression Testing}
-          {Introduced automated unit and integration regression testing (Jest) across critical payment flows, cutting production bug escapes by over 50\% in the first quarter.}
-        \resumeItem{Event-Driven Processing}
-          {Implemented event-driven background processing via RabbitMQ consumers and Bull queues for async email delivery, virtual account creation, and scheduled exchange rate updates.}
-      \resumeItemListEnd
-    \resumeJobHeading{Software Engineer}{Lagos, NG}{May 2023 - Nov 2024}{LocalRamp}
-    \resumeItemListStart
-        \resumeItem{Fiat-to-Crypto Gateway}
-          {Led end-to-end development of a fiat-to-crypto gateway processing millions in monthly transaction volume, with PCI-DSS compliance and KYC/AML integration.}
-        \resumeItem{Analytics Dashboard}
-          {Built a real-time analytics dashboard for operations teams and an embeddable widget adopted by 300+ enterprise clients, contributing to an 18\% improvement in retention.}
-        \resumeItem{CI/CD Optimization}
-          {Reduced CI/CD pipeline duration by 70\% by streamlining build and deployment stages, and authored API design standards that cut new engineer onboarding time by 40\%.}
-      \resumeItemListEnd
+	\resumeSubHeadingListEnd
+	\vspace{8pt}
+	\section{Experience}
+	\resumeSubHeadingListStart \resumeJobHeading{Backend Engineer}{Lagos, NG}{Oct 2024 - Present}{Taja}
+	\resumeItemListStart \resumeItem{Abuse Detection} {Implemented device fingerprinting and abuse-detection controls to identify impersonation attempts, reducing account takeover incidents by 30\%.}
+	\resumeItem{Query \& Database Design}
+	{Optimized SQL queries, database indexes, and schema design to cut average request latency by 20\% while improving data integrity across core fintech features.}
+	\resumeItem{Third-Party Integrations} {Integrated external APIs for payments and identity verification, building provider-agnostic abstraction with automatic failover that routes requests to backup providers when any single service fails, ensuring uninterrupted uptime.}
+	\resumeItem{Admin Dashboard}
+	{Developed an admin dashboard for internal operations workflows, helping increase organizational productivity by 50\% through faster task handling and reporting.}
+	\resumeItemListEnd \resumeJobHeading{Software Engineer (contract)}{Lagos, NG}{Oct 2025 - May 2026}{Kite}
+	\resumeItemListStart \resumeItem{Unified API Layer} {Architected a unified API layer around major payment providers, consolidating complex financial rails into a single high-performance interface used by multiple client applications, instrumented with centralized logging, monitoring, and end-to-end observability.}
+	\resumeItem{Team Leadership}
+	{Led a team of 2 engineers, defining the technical roadmap, code-review standards, and quarterly planning process while maintaining 99.9\% system uptime.}
+	\resumeItem{Regression Testing} {Introduced automated unit and integration regression testing (Jest) across critical payment flows, cutting production bug escapes by over 50\% in the first quarter.}
+	\resumeItem{Event-Driven Processing}
+	{Implemented event-driven background processing via RabbitMQ consumers and Bull queues for async email delivery, virtual account creation, and scheduled exchange rate updates.}
+	\resumeItemListEnd \resumeJobHeading{Software Engineer}{Lagos, NG}{May 2023 - Nov 2024}{LocalRamp}
+	\resumeItemListStart \resumeItem{Fiat-to-Crypto Gateway} {Led end-to-end development of a fiat-to-crypto gateway processing millions in monthly transaction volume, with PCI-DSS compliance and KYC/AML integration.}
+	\resumeItem{Analytics Dashboard}
+	{Built a real-time analytics dashboard for operations teams and an embeddable widget adopted by 300+ enterprise clients, contributing to an 18\% improvement in retention.}
+	\resumeItem{CI/CD Optimization} {Reduced CI/CD pipeline duration by 70\% by streamlining build and deployment stages, and authored API design standards that cut new engineer onboarding time by 40\%.}
+	\resumeItemListEnd \resumeJobHeading{Backend Engineer / Full Stack Developer}{Lagos, NG}{Jan 2022 - Nov 2024}{payouts.cash}
+	\resumeItemListStart \resumeItem{Payment APIs} {Designed and implemented backend services for the 2022 payouts.cash platform to facilitate Naira <-> crypto conversions, payment links, and order management.}
+	\resumeItem{Transactions \& Webhooks}
+	{Built transaction models, webhook handlers, and idempotent payment flows to safely process buy/sell orders and payout callbacks.}
+	\resumeItem{Integrations} {Integrated with banking/crypto rails and exchange rate sources, with validation and failure handling for unreliable external providers.}
+	\resumeItem{Operational Readiness}
+	{Implemented logging, transaction tracing, and admin/support tooling to assist with investigations, reconciliation, and reliable transaction processing.}
+	\resumeItemListEnd
 
-\resumeSubHeadingListEnd
+	\resumeSubHeadingListEnd
 
-%-----------PROJECTS-----------------
-\section{Projects}
-\resumeSubHeadingListStart
-\resumeProjectHeading{RateLimitr (TypeScript, Fastify, Redis, TimescaleDB)}{2024}
-  \resumeItemListStart
-    \item\small{Distributed multi-tenant rate-limiting service handling 10,000+ RPS across 50+ nodes using atomic Redis Lua operations, with real-time analytics via TimescaleDB and an LLM-powered analytics assistant that answers tenant questions in plain English.}
-  \resumeItemListEnd
-\resumeProjectHeading{Synapse (TypeScript, Express, MongoDB, Redis)}{2025}
-  \resumeItemListStart
-    \item\small{Multi-tenant payment API unifying 3 providers behind a single adapter interface — virtual accounts, cards, KYC/KYB, and cross-border payouts across 6+ financial services. Secured with JWT/API-key auth, rate limiting, structured logging, and Sentry.}
-  \resumeItemListEnd
-\resumeSubHeadingListEnd
+	%-----------PROJECTS-----------------
+	\section{Projects}
+	\resumeSubHeadingListStart \resumeProjectHeading{RateLimitr (TypeScript, Fastify, Redis, TimescaleDB)}{2024}
+	\resumeItemListStart \item\small{Distributed multi-tenant rate-limiting service handling 10,000+ RPS across 50+ nodes using atomic Redis Lua operations, with real-time analytics via TimescaleDB and an LLM-powered analytics assistant that answers tenant questions in plain English.}
+	\resumeItemListEnd \resumeProjectHeading{Synapse (TypeScript, Express, MongoDB, Redis)}{2025}
+	\resumeItemListStart \item\small{Multi-tenant payment API unifying 3 providers behind a single adapter interface — virtual accounts, cards, KYC/KYB, and cross-border payouts across 6+ financial services. Secured with JWT/API-key auth, rate limiting, structured logging, and Sentry.}
+	\resumeItemListEnd \resumeSubHeadingListEnd
 
-%-----------EDUCATION-----------------
-\section{~~Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Alex Ekwuememe Federal University, Ebonyi State, Abakaliki}{Ebonyi, Nigeria}
-      {Bachelor of Science - Computer Science;  GPA: 3.5}{Jan 2021 - Oct 2025}
-    \resumeItemListStart
-      \resumeItem{Courses}{Operating Systems, Data Structures, Analysis Of Algorithms, Artificial Intelligence, Machine Learning, Networking, Databases}
-    \resumeItemListEnd
-    \resumeSubHeadingListEnd
+	%-----------EDUCATION-----------------
+	\section{~~Education}
+	\resumeSubHeadingListStart \resumeSubheading
+	{Alex Ekwuememe Federal University, Ebonyi State, Abakaliki}{Ebonyi, Nigeria} {Bachelor of Science - Computer Science; GPA: 3.5}{}
+	\resumeItemListStart \resumeItem{Courses}{Operating Systems, Data Structures, Analysis Of Algorithms, Artificial Intelligence, Machine Learning, Networking, Databases}
+	\resumeItemListEnd \resumeSubHeadingListEnd
 
 	\vspace{8pt}
 	%-----------CERTIFICATIONS-----------------
 	\section{~~Certifications}
-	\resumeSubHeadingListStart
-	\resumeSubItem{HackerRank}{Software Engineer \textbullet{} Oct 2026 \textbullet{} Credential ID: AE666AC16F1C \textbullet{} \href{https://www.hackerrank.com/certificates/e4382188f72a}{verify}}
+	\resumeSubHeadingListStart \resumeSubItem{HackerRank}{Software Engineer \textbullet{} Oct 2026 \textbullet{} Credential ID: AE666AC16F1C \textbullet{} \href{https://www.hackerrank.com/certificates/e4382188f72a}{verify}}
 	\resumeSubHeadingListEnd
-
 \end{document}
