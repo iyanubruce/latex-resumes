@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1792877381.79146 "/Users/iyanuoluwa/Documents/latex-resumes/frontend-resume.tex" "frontend-resume.pdf" "frontend-resume" 1792877382.58137 0
-  "/Users/iyanuoluwa/Documents/latex-resumes/frontend-resume.tex" 1792875815.48357 9291 f0d4b31ffbec0c35253395fac01c2bc7 ""
+["pdflatex"] 1792934341.35099 "/Users/iyanuoluwa/Documents/latex-resumes/frontend-resume.tex" "frontend-resume.pdf" "frontend-resume" 1792934341.98068 0
+  "/Users/iyanuoluwa/Documents/latex-resumes/frontend-resume.tex" 1792934340.9324 9289 7cd4115c0118b3b3de0060191056012a ""
   "/Users/iyanuoluwa/Library/texlive/2024basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1790086827.30235 79343 f5e3a19efef13a79b2a39a1a413a5ff9 ""
   "/Users/iyanuoluwa/Library/texlive/2024basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0900.600pk" 1790086981.09194 10448 a75cd9a287ed2fceb97bad659fd6446c ""
   "/Users/iyanuoluwa/Library/texlive/2024basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk" 1790086981.5197 11524 7816a74ab590554875d594f5c3b42571 ""
@@ -80,9 +80,9 @@
   "/usr/local/texlive/2024basic/texmf-dist/web2c/texmf.cnf" 1708706663 41649 5d6ae549fbbcb850a863f69aa41f3d10 ""
   "/usr/local/texlive/2024basic/texmf-var/web2c/pdftex/pdflatex.fmt" 1787669286 7536451 49ce852956701dc35b87c7a7555e8afb ""
   "/usr/local/texlive/2024basic/texmf.cnf" 1710011638 628 8b896f7d9d41b43f4346b9091e52171f ""
-  "frontend-resume.aux" 1792877382.3953 815 2914c6f8bc65c5b1639995c7187c8b62 "pdflatex"
-  "frontend-resume.out" 1792877382.39678 628 d96851872e5dafc71282a1988c11480f "pdflatex"
-  "frontend-resume.tex" 1792875815.48357 9291 f0d4b31ffbec0c35253395fac01c2bc7 ""
+  "frontend-resume.aux" 1792934341.87669 815 2914c6f8bc65c5b1639995c7187c8b62 "pdflatex"
+  "frontend-resume.out" 1792934341.87785 628 d96851872e5dafc71282a1988c11480f "pdflatex"
+  "frontend-resume.tex" 1792934340.9324 9289 7cd4115c0118b3b3de0060191056012a ""
   (generated)
   "frontend-resume.aux"
   "frontend-resume.log"
