@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1792934179.16702 "/Users/iyanuoluwa/Documents/latex-resumes/Fullstack-resume.tex" "Fullstack-resume.pdf" "Fullstack-resume" 1792934179.75189 0
-  "/Users/iyanuoluwa/Documents/latex-resumes/Fullstack-resume.tex" 1792934178.86214 11319 d6b2c0c0264632208416da327e77326c ""
+["pdflatex"] 1792935120.97797 "/Users/iyanuoluwa/Documents/latex-resumes/Fullstack-resume.tex" "Fullstack-resume.pdf" "Fullstack-resume" 1792935121.70778 0
+  "/Users/iyanuoluwa/Documents/latex-resumes/Fullstack-resume.tex" 1792935120.53629 11299 2e77fa4a3743f9faa524d3820669da2c ""
   "/Users/iyanuoluwa/Library/texlive/2024basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1790086827.30235 79343 f5e3a19efef13a79b2a39a1a413a5ff9 ""
   "/Users/iyanuoluwa/Library/texlive/2024basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0900.600pk" 1790086981.09194 10448 a75cd9a287ed2fceb97bad659fd6446c ""
   "/Users/iyanuoluwa/Library/texlive/2024basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk" 1790086981.5197 11524 7816a74ab590554875d594f5c3b42571 ""
@@ -80,9 +80,9 @@
   "/usr/local/texlive/2024basic/texmf-dist/web2c/texmf.cnf" 1708706663 41649 5d6ae549fbbcb850a863f69aa41f3d10 ""
   "/usr/local/texlive/2024basic/texmf-var/web2c/pdftex/pdflatex.fmt" 1787669286 7536451 49ce852956701dc35b87c7a7555e8afb ""
   "/usr/local/texlive/2024basic/texmf.cnf" 1710011638 628 8b896f7d9d41b43f4346b9091e52171f ""
-  "Fullstack-resume.aux" 1792934179.65568 823 957adb45b965acc31909b6a0e852caf2 "pdflatex"
-  "Fullstack-resume.out" 1792934179.65804 671 de413f9c66f9567ebe657212e37908d4 "pdflatex"
-  "Fullstack-resume.tex" 1792934178.86214 11319 d6b2c0c0264632208416da327e77326c ""
+  "Fullstack-resume.aux" 1792935121.59512 823 957adb45b965acc31909b6a0e852caf2 "pdflatex"
+  "Fullstack-resume.out" 1792935121.59626 671 de413f9c66f9567ebe657212e37908d4 "pdflatex"
+  "Fullstack-resume.tex" 1792935120.53629 11299 2e77fa4a3743f9faa524d3820669da2c ""
   (generated)
   "Fullstack-resume.aux"
   "Fullstack-resume.log"
